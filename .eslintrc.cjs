@@ -8,9 +8,13 @@ module.exports = {
     'eslint:recommended',
     '@vue/eslint-config-typescript/recommended',
     '@vue/eslint-config-prettier',
+    // 后面的配置会重写前面的配置
+
+    // Add "@vue/eslint-config-prettier" to the "extends" array in your .eslintrc.cjs file. Make sure to put it last,
+    // so it gets the chance to override other configs.
   ],
   rules: {
     // 解决delete cr
-    endOfLine: 'auto',
+    endOfLine: 0,
   },
 }
