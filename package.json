@@ -20,6 +20,8 @@
     "vue-router": "^4.1.2"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
     "@rushstack/eslint-patch": "^1.1.0",
     "@types/jsdom": "^16.2.14",
     "@types/node": "^16.11.45",
@@ -53,9 +55,8 @@
     }
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx,vue}": [
-      "prettier --write",
-      "vue-cli-service lint",
+    "src/**/*.{js,vue}": [
+      "eslint --fix --ext .ts,.vue,.tsx,.cjs",
       "git add"
     ]
   }
