@@ -48,19 +48,7 @@
     "vue": "^3.2.37",
     "vue-tsc": "^0.38.8"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "echo $HUSKY_GIT_PARAMS"
-    }
-  },
   "gitHooks": {
     "pre-commit": "lint-staged"
-  },
-  "lint-staged": {
-    "src/**/*.{ts,vue,js,tsx,cjs}": [
-      "eslint --fix --ext .ts,.vue,.tsx,.cjs",
-      "git add"
-    ]
   }
 }
