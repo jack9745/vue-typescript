@@ -42,8 +42,6 @@ var b = ''
 var c = ''
 var d = ''
 var e = ''
-var f = ''
-
 import { toRefs, inject } from 'vue'
 import type { Transition, TransitionProps } from 'vue'
 import emitter from '@/utils/event'
