@@ -52,6 +52,6 @@
     "pre-commit": "lint-staged"
   },
   "lint-staged": {
-    "*.vue": "eslint"
+    "*.{ts,tsx,vue,cjs}": "eslint"
   }
 }
