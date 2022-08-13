@@ -53,7 +53,6 @@ type Props = {
 }
 
 const props = defineProps<Props>()
-const ac = 'sddfsf'
 let { userAge, userName, friendList = [], addressInfo, height } = toRefs(props)
 console.log('用户的年龄是', userAge)
 
