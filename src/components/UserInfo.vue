@@ -37,8 +37,7 @@
 </template>
 
 <script lang="ts" setup>
-const ab = 'sdff' // 这里报错了
-const a = 'sdf'
+var a = 'sss'
 import { toRefs, inject } from 'vue'
 import type { Transition, TransitionProps } from 'vue'
 import emitter from '@/utils/event'

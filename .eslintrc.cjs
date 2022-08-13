@@ -61,7 +61,7 @@ module.exports = {
         singleQuote: true, // 文件中字符串要是单引号
         semi: false, // 每个语句后面不要加单引号
         // 经过测试发现 下面的配置 在这里是无效的，所以 "prettier/prettier" 可以配置哪些规则 ？？？
-        'no-var': 'off',
+        // 'no-var': 'off',
         // 解决delete CR 报错问题 回车和换行问题
         endOfLine: 'auto', // 表示啥意思
         //  Maintain existing line endings (mixed values within one file are normalised by looking at what’s used after the first line)
