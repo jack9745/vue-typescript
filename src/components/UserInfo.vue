@@ -66,6 +66,7 @@ if (userAge) {
 userAge!.value = 90
 
 addressInfo.value.city = 'sfsdfsf'
+
 console.log('friendList', friendList)
 console.log(props)
 const emitFormData = () => {
