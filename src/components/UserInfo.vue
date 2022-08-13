@@ -52,6 +52,7 @@ type Props = {
   }
 }
 const a = []
+const bb = []
 const props = defineProps<Props>()
 let { userAge, userName, friendList = [], addressInfo, height } = toRefs(props)
 console.log('用户的年龄是', userAge)
