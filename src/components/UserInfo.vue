@@ -37,12 +37,13 @@
 </template>
 
 <script lang="ts" setup>
-const bar: 'foo' = 'sss'
+const ab = 'sdff' // 这里报错了
+const a = 'sdf'
 import { toRefs, inject } from 'vue'
 import type { Transition, TransitionProps } from 'vue'
 import emitter from '@/utils/event'
 const foo = inject<string>('foo')
-console.log('foo', foo)
+console.log('sss', foo)
 type Props = {
   userName?: string
   userAge?: number
@@ -52,8 +53,7 @@ type Props = {
     [key: string]: any
   }
 }
-const a = []
-const bb = []
+
 const props = defineProps<Props>()
 const {
   userAge,

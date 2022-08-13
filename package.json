@@ -54,6 +54,9 @@
       "commit-msg": "echo $HUSKY_GIT_PARAMS"
     }
   },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
   "lint-staged": {
     "src/**/*.{ts,vue,js,tsx,cjs}": [
       "eslint --fix --ext .ts,.vue,.tsx,.cjs",
