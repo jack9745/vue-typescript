@@ -9,8 +9,8 @@ module.exports = {
     '@vue/eslint-config-typescript/recommended',
     '@vue/eslint-config-prettier',
   ],
-  // rules: {
-  //   // 解决delete cr
-  //   endOfLine: "auto",
-  // },
+  rules: {
+    // 解决delete cr
+    endOfLine: 'auto',
+  },
 }
