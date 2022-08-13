@@ -53,9 +53,11 @@
       "commit-msg": "echo $HUSKY_GIT_PARAMS"
     }
   },
-  "src/**": [
-    "eslint --fix --ext .js",
-    "prettier --write",
-    "git add"
-  ]
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,vue}": [
+      "prettier --write",
+      "vue-cli-service lint",
+      "git add"
+    ]
+  }
 }
