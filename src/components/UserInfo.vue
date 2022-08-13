@@ -39,6 +39,7 @@
 <script lang="ts" setup>
 var a = 'sss'
 var b = ''
+var c = ''
 import { toRefs, inject } from 'vue'
 import type { Transition, TransitionProps } from 'vue'
 import emitter from '@/utils/event'

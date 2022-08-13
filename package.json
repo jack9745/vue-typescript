@@ -8,7 +8,7 @@
     "test:unit": "vitest --environment jsdom",
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
-    "lint": "lint-staged"
+    "lint": "lint"
   },
   "dependencies": {
     "@types/jquery": "^3.5.14",
