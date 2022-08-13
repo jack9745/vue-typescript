@@ -37,48 +37,48 @@
 </template>
 
 <script lang="ts" setup>
-import { toRefs, inject } from "vue";
-import type { Transition, TransitionProps } from "vue";
-import emitter from "@/utils/event";
-const foo = inject<string>("foo");
-console.log("foo", foo);
+import { toRefs, inject } from 'vue'
+import type { Transition, TransitionProps } from 'vue'
+import emitter from '@/utils/event'
+const foo = inject<string>('foo')
+console.log('foo', foo)
 type Props = {
-  userName?: string;
-  userAge?: number;
-  friendList?: string[];
-  height: number;
+  userName?: string
+  userAge?: number
+  friendList?: string[]
+  height: number
   addressInfo: {
-    [key: string]: any;
-  };
-};
+    [key: string]: any
+  }
+}
 
-const props = defineProps<Props>();
-let { userAge, userName, friendList = [], addressInfo, height } = toRefs(props);
-console.log("用户的年龄是", userAge);
+const props = defineProps<Props>()
+let { userAge, userName, friendList = [], addressInfo, height } = toRefs(props)
+console.log('用户的年龄是', userAge)
 
 // userAge 可能是undefined 所以 会报编译检查错误，对象可能未定义
 if (userAge) {
-  userAge.value = 80;
+  userAge.value = 80
 }
 
 // 或者非空断言
-userAge!.value = 90;
+userAge!.value = 90
 
-addressInfo.value.city = "sfsdfsf";
-console.log("friendList", friendList);
-console.log(props);
+addressInfo.value.city = 'sfsdfsf'
+console.log('friendList', friendList)
+console.log(props)
 const emitFormData = () => {
-  emitter.emit("emitFormData", props.addressInfo);
-};
+  emitter.emit('emitFormData', props.addressInfo)
+}
 const emit = defineEmits<{
-  (event: "changeData", value: any): void;
-}>();
+  (event: 'changeData', value: any): void
+}>()
 const emitDataByVue = () => {
-  emit("changeData", props.addressInfo);
-};
+  emit('changeData', props.addressInfo)
+}
 
-console.log("用户的身高是height", props.height);
-console.log("用户的身高是", height);
+console.log('用户的身高是height', props.height)
+console.log('用户的身高是', height)
 </script>
 
 <style></style>
