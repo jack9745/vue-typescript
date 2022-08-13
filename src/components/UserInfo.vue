@@ -51,7 +51,7 @@ type Props = {
     [key: string]: any
   }
 }
-
+const a = []
 const props = defineProps<Props>()
 let { userAge, userName, friendList = [], addressInfo, height } = toRefs(props)
 console.log('用户的年龄是', userAge)
@@ -65,7 +65,6 @@ if (userAge) {
 userAge!.value = 90
 
 addressInfo.value.city = 'sfsdfsf'
-let a = {}
 console.log('friendList', friendList)
 console.log(props)
 const emitFormData = () => {
