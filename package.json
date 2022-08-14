@@ -8,7 +8,7 @@
     "test:unit": "vitest --environment jsdom",
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
-    "lint": "eslint --ext src/**/*.ts src/**/*.vue"
+    "lint": "eslint --ext --fix src/**/*.d.ts src/**/*.ts src/**/*.vue *.cjs src/*.ts"
   },
   "dependencies": {
     "@types/jquery": "^3.5.14",
@@ -32,11 +32,11 @@
     "@vue/test-utils": "^2.0.2",
     "@vue/tsconfig": "^0.1.3",
     "esbuild-windows-64": "^0.14.50",
-    "eslint": "^8.5.0",
+    "eslint": "^8.22.0",
     "eslint-plugin-vue": "^9.0.0",
     "husky": "^8.0.1",
     "jsdom": "^20.0.0",
-    "lint-staged": "^13.0.3",
+    "lint-staged": "^10.2.10",
     "npm-run-all": "^4.1.5",
     "pre-commit": "^1.2.2",
     "prettier": "^2.5.1",
@@ -46,12 +46,13 @@
     "vite": "^3.0.1",
     "vitest": "^0.18.1",
     "vue": "^3.2.37",
-    "vue-tsc": "^0.38.8"
+    "vue-tsc": "^0.38.8",
+    "yorkie": "^2.0.0"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
   "lint-staged": {
-    "*.{ts,tsx,vue,cjs}": "npm run lint"
+    ".{ts,tsx,vue,cjs,d.ts}": "eslint"
   }
 }
