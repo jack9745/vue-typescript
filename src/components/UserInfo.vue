@@ -28,7 +28,7 @@
   </div>
   <el-form :model="addressInfo">
     <el-form-item label="所在市区">
-      <el-input v-model="addressInfo.city"></el-input>
+      <el-input v-model="addressInfo.city" placeholder="ss"></el-input>
     </el-form-item>
     <el-form-item label="所在省份">
       <el-input v-model="addressInfo.province"></el-input>
@@ -37,12 +37,14 @@
 </template>
 
 <script lang="ts" setup>
-var a = 'sss'
-var b = ''
-var c = ''
-import { toRefs, inject } from 'vue'
-import type { Transition, TransitionProps } from 'vue'
 import emitter from '@/utils/event'
+// const a = ''
+const b = ''
+console.log(b)
+import { toRefs, inject } from 'vue'
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import type { Transition, TransitionProps } from 'vue'
+
 const foo = inject<string>('foo')
 console.log('sss', foo)
 type Props = {

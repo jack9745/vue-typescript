@@ -23,9 +23,8 @@ require('@rushstack/eslint-patch/modern-module-resolution')
 // 查看源码 可以得知 关闭了一些eslint 规则 ，关闭了一些没用的规则，当我们用prettier时
 //  The rest are rules that you never need to enable when using Prettier.
 
-//eslint检查报错还可以跑起来 为什么报错了工程还可以运行
 module.exports = {
-  // 停止向父级查找
+  // 如果为true表示 停止向父级查找
   root: true,
   // env配置项 可以指定我们代码运行的环境，然后预定义了一组全局变量
   env: {
@@ -43,7 +42,7 @@ module.exports = {
     '@vue/eslint-config-typescript/recommended',
 
     // 这个插件的作用是什么  这个插件是依赖 eslint-plugin-prettier 和 eslint-config-prettier两个插件
-    // 这个插件的作用 将 eslint-plugin-prettier 和 eslint-config-prettier 两个插件的作用
+    // 这个插件的作用是什么
     // 我的理解 是关闭了一些无用规则，然后可以开启一些格式化 "prettier/prettier中可以配置一些格式化的规则，这些规则来自于prettier插件，在其中配置eslint 规则是无效的
     '@vue/eslint-config-prettier',
     // 后面的配置会重写前面的配置
@@ -54,7 +53,11 @@ module.exports = {
   rules: {
     // 'no-var': 'off', // 生效的
     // 对于声明了变量，但是么有使用过的，要发出警号
-    '@typescript-eslint/no-unused-vars': ['warn'],
+    // error时，UserInfo.vue文件中会报错
+
+    // 所以这个文件的优先级高于根目录的优先级 因为eslint检查一个文件时，首先会找
+    // 离这个被检测文件最近的配置文件
+    '@typescript-eslint/no-unused-vars': ['error'],
 
     // 可以允许显示的any类型
     '@typescript-eslint/no-explicit-any': 'off',
@@ -68,27 +71,12 @@ module.exports = {
     // 规则  "prettier/prettier" 是 插件eslint-plugin-prettier提供的
 
     // GitHub上说不推荐，但是根据我测试之后的理解，如果想覆盖默认的prettier规则，还是要这样设置
-
-    // 这个规则开启之后还可以格式化样式
     'prettier/prettier': [
       'error',
       // 表示 开启规则  经过测试 有效，这里也可以换成 off表示关闭规则，warn表示发出警告
       {
-        // 怎么判断一个文件是用制表符来缩进还是空格来缩进，可以选中一段代码
-        // 空白部分是点 . 号 的表示用的是空格缩进的，箭头表示用的 制表符缩进的
-
-        // Indent lines with tabs instead of spaces.
-        // 用空格缩进还是制表符来缩进
-        useTabs: false,
-
-        // vue文件中 script部分 和style部分 是否缩进
-        vueIndentScriptAndStyle: true,
-
-        // 文件中字符串要是单引号
-        singleQuote: true,
-
-        // 每个语句后面不要加单引号
-        semi: false,
+        singleQuote: true, // 文件中字符串要是单引号
+        semi: false, // 每个语句后面不要加单引号
         // 经过测试发现 下面的配置 在这里是无效的，所以 "prettier/prettier" 可以配置哪些规则 ？？？
         // 'no-var': 'off',
         // 解决delete CR 报错问题 回车和换行问题
@@ -103,27 +91,12 @@ module.exports = {
   // 我们可以通过 overrides和 files和 rules来重写一组文件的lint规则
 
   // 注意 overrides 是数组形式的,files也是数组形式的
-  // 重写一组文件的校验规则
-  overrides: [
-    {
-      // 练习通配符 * 的作用 匹配文件夹为什么要用两个星号？？ 用一个星号也匹配不到
-
-      // 当用 {} 匹配一个扩展名时为什么不生效 ？？？
-      // 可以看到 SearchForm.vue文件
-      //  const a = '' 是警告，而不是错误，说明没有运用下面的规则
-
-      // 我的理解是 {}适用于匹配多个字符模式，对单个无效
-
-      // 这个是可以匹配views下面所有的vue,ts文件的，不管是直接下面的，还是在子文件夹下面的
-      // files: ['src/views/**/*.{vue,ts}'],
-
-      // 这种模式 是只能匹配到views文件夹下面的vue文件，直接在views下面的，不能再子文件夹下面的
-      files: ['src/views/*.vue'],
-      rules: {
-        '@typescript-eslint/no-unused-vars': 'error',
-        // for test
-        'no-debugger': 'off',
-      },
-    },
-  ],
+  // overrides: [
+  //   {
+  //     files: ['src/**/UserInfo.vue'],
+  //     rules: {
+  //       '@typescript-eslint/no-unused-vars': 'error',
+  //     },
+  //   },
+  // ],
 }

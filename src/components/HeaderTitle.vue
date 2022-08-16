@@ -1,3 +1,4 @@
+<!-- eslint-disable @typescript-eslint/no-unused-vars -->
 <script lang="ts">
 import { defineComponent, reactive, ref } from 'vue'
 type Person = {
