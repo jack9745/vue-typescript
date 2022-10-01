@@ -38,12 +38,12 @@
 
 <script lang="ts" setup>
 import emitter from '@/utils/event'
-// const a = ''
-const b = ''
-console.log(b)
 import { toRefs, inject } from 'vue'
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import type { Transition, TransitionProps } from 'vue'
+// const a = ''
+const b = ''
+console.log(b)
 
 const foo = inject<string>('foo')
 console.log('sss', foo)
@@ -65,31 +65,31 @@ const {
   addressInfo,
   height,
 } = toRefs(props)
-console.log('用户的年龄是', userAge)
+console.log('用户的年龄是', userAge?.value)
 
 // userAge 可能是undefined 所以 会报编译检查错误，对象可能未定义
-if (userAge) {
-  userAge.value = 80
-}
+// if (userAge.value) {
+//   userAge.value = 80
+// }
 
 // 或者非空断言
 // userAge!.value = 90
 
 addressInfo.value.city = 'sfsdfsf'
-console.log('friendList', friendList)
+// console.log('friendList', friendList)
 console.log(props)
 const emitFormData = () => {
-  emitter.emit('emitFormData', props.addressInfo)
+  emitter.emit('emitFormData', props.addressInfo.value)
 }
 const emit = defineEmits<{
   (event: 'changeData', value: any): void
 }>()
 const emitDataByVue = () => {
-  emit('changeData', props.addressInfo)
+  emit('changeData', props.addressInfo.value)
 }
 
 console.log('用户的身高是height', props.height)
-console.log('用户的身高是', height)
+console.log('用户的身高是', height.value)
 </script>
 
 <style></style>

@@ -1,3 +1,6 @@
+// 用pnpm包管理器 会出现 不知道原因的报错，比如安装了一个包 项目就跑不起来了
+// 换成yarn 没有问题
+
 import { fileURLToPath, URL } from 'node:url'
 
 import { defineConfig } from 'vite'

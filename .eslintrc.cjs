@@ -58,6 +58,9 @@ module.exports = {
 
     // 可以允许显示的any类型
     '@typescript-eslint/no-explicit-any': 'off',
+
+    // 允许空函数
+    '@typescript-eslint/no-empty-function': 'off',
     // '@vue/eslint-config-prettier
     // eslint 会读取prettier里面的配置
 
@@ -82,7 +85,8 @@ module.exports = {
         useTabs: false,
 
         // vue文件中 script部分 和style部分 是否缩进
-        vueIndentScriptAndStyle: true,
+        // 编辑器里的设置要和这里的配置保持一致
+        vueIndentScriptAndStyle: false,
 
         // 文件中字符串要是单引号
         singleQuote: true,
