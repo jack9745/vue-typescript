@@ -10,6 +10,9 @@
       <el-button type="primary" plain @click="deleteSelected"
         >批量删除</el-button
       >
+      <el-button type="primary" plain @click="updateSelected"
+        >批量修改</el-button
+      >
       <!-- <el-button type="primary" @click="getKeyValue">获取key</el-button> -->
     </div>
     <el-table
@@ -49,12 +52,17 @@
       :type="dialogType"
       @change="getList"
     ></MemberDialog>
+
+    <!-- 批量修改弹窗  可以渲染出来-->
+    <BatchUpdate v-model:visible="updateVisible"></BatchUpdate>
   </el-card>
 </template>
 
 <script lang="ts">
 import { ref, reactive, defineComponent } from 'vue'
 import MemberDialog from './components/MemberDialog.vue'
+// 导入时不需要扩展名称
+import BatchUpdate from './components/BatchUpdate'
 import { ElMessage, ElMessageBox } from 'element-plus'
 import type { User, DialogType } from './index'
 import {
@@ -64,13 +72,14 @@ import {
 } from '@/local-service/member'
 
 export default defineComponent({
-  components: { MemberDialog },
+  components: { MemberDialog, BatchUpdate },
   setup() {
     const memberData = reactive<{ value: Partial<User> }>({
       value: {},
     })
     const dialogType = ref<DialogType>()
     const visible = ref(false)
+    const updateVisible = ref(false)
     console.log('123')
     const tableData = ref([])
     //  Unhandled error during execution of setup function
@@ -95,6 +104,12 @@ export default defineComponent({
       memberData.value = data
       visible.value = true
     }
+
+    // 批量修改数据
+    const updateSelected = () => {
+      updateVisible.value = true
+    }
+
     const multipleSelection = ref<User[]>([])
     //
     const handleSelectionChange = (selection: User[]) => {
@@ -178,6 +193,8 @@ export default defineComponent({
       dialogType,
       deleteSelected,
       handleSelectionChange,
+      updateSelected,
+      updateVisible,
     }
   },
 })
