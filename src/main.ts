@@ -1,5 +1,4 @@
 import { createApp } from 'vue'
-import { createPinia } from 'pinia'
 
 import App from './App.vue'
 import router from './router'
@@ -8,6 +7,8 @@ import './assets/main.css'
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 
+// 引入状态管理
+import { createPinia } from 'pinia'
 // icons-vue
 import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 const app = createApp(App)
@@ -19,5 +20,9 @@ for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
 }
 app.use(createPinia())
 app.use(router)
-app.use(ElementPlus)
+
+// @remarks 设置表单组件的默认尺寸 size
+app.use(ElementPlus, {
+  size: 'large',
+})
 app.mount('#app')

@@ -18,6 +18,12 @@ import vitePluginEslint from 'vite-plugin-eslint'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  // server: {
+  //   hmr: {
+  //     overlay: false,
+  //   },
+  // },
+
   plugins: [
     vue(),
     vueJsx(),
@@ -37,6 +43,15 @@ export default defineConfig({
       emitWarning: true,
     }),
   ],
+  server: {
+    // 代理服务
+    proxy: {
+      '/api': {
+        target: 'http://127.0.0.1:7001',
+        changeOrigin: true,
+      },
+    },
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),

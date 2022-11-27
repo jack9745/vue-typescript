@@ -39,7 +39,7 @@ request.onupgradeneeded = function (event: Event) {
 
 // 数据库连接成功
 request.onsuccess = function (event: Event) {
-  console.log('数据库连接成功')
+  // console.log('数据库连接成功')
 }
 
 // 家庭成员管理增删改查
@@ -91,7 +91,7 @@ const readAll = function (data: any, callback: Callback) {
   // 我的理解，如果是数据组可以查询多条数据
   const objectStoreRequest = objectStore.getAll()
   objectStoreRequest.onsuccess = function (event: Event) {
-    console.log('查询的结果是', objectStoreRequest.result)
+    // console.log('查询的结果是', objectStoreRequest.result)
     callback({
       // 类型“EventTarget”上不存在属性“result” ?? 这个怎么解决？？
       // data: event.target.result,

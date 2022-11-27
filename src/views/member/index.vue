@@ -80,7 +80,6 @@ export default defineComponent({
     const dialogType = ref<DialogType>()
     const visible = ref(false)
     const updateVisible = ref(false)
-    console.log('123')
     const tableData = ref([])
     //  Unhandled error during execution of setup function
     // 这个问题要结局

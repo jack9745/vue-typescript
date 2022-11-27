@@ -27,17 +27,49 @@ export default defineComponent({
       localVisible.value = false
     }
     const formData = reactive({
-      fieldType: '',
+      fieldName: '',
       modifiedValue: '',
     })
+    const fieldType = ref<string>('input')
     const form = ref(null)
     const fieldList = ref([
       {
         label: '姓名',
-        type: '',
-        value: 'input',
+        value: 'name',
+        type: 'input',
+      },
+      {
+        label: '年龄',
+        value: 'age',
+        type: 'input',
+      },
+      {
+        label: '身高',
+        value: 'height',
+        type: 'input',
+      },
+      {
+        label: '出生日期',
+        value: 'birth',
+        type: 'datepicker',
+      },
+      {
+        label: '手机号码',
+        value: 'phoneNumber',
+        type: 'input',
       },
     ])
+    // fieldType.value = fieldList
+    const changeField = (value: string) => {
+      for (let i = 0; i < fieldList.value.length; i++) {
+        const item = fieldList.value[i]
+        if (item.value === value) {
+          fieldType.value = item.type
+          console.log(fieldType.value)
+          break
+        }
+      }
+    }
     return () => (
       <>
         {/* 指令在tsx 中怎么写  可以直接使用指令 并且不能自动解包 ？？？
@@ -51,7 +83,11 @@ export default defineComponent({
             default: () => (
               <el-form model={formData} ref="form" label-width="150px">
                 <el-form-item prop="type" label="字段">
-                  <el-select v-model={formData.fieldType} clearable>
+                  <el-select
+                    v-model={formData.fieldName}
+                    clearable
+                    onChange={changeField}
+                  >
                     {fieldList.value.map((item, index) => {
                       return (
                         <el-option
@@ -63,11 +99,21 @@ export default defineComponent({
                     })}
                   </el-select>
                 </el-form-item>
+
                 <el-form-item prop="modifiedValue" label="修改后的值">
-                  <el-input
-                    v-model={formData.modifiedValue}
-                    clearable
-                  ></el-input>
+                  {fieldType.value === 'input' ? (
+                    <el-input
+                      v-model={formData.modifiedValue}
+                      clearable
+                    ></el-input>
+                  ) : (
+                    <el-date-picker
+                      v-model={formData.modifiedValue}
+                      value-format="YYYY-MM-DD"
+                      type="date"
+                      clearable
+                    ></el-date-picker>
+                  )}
                 </el-form-item>
               </el-form>
             ),

@@ -1,0 +1,5434 @@
+{
+  "code": 0,
+  "message": "Success",
+  "zpData": {
+    "certs": [
+      {
+        "name": "英语类",
+        "parentName": "",
+        "subList": [
+          { "name": "大学英语四级", "parentName": "英语类", "subList": [] },
+          { "name": "大学英语六级", "parentName": "英语类", "subList": [] },
+          {
+            "name": "雅思IELTS",
+            "parentName": "英语类",
+            "subList": [
+              {
+                "name": "雅思5.5分",
+                "parentName": "雅思IELTS",
+                "subList": null
+              },
+              {
+                "name": "雅思6.0分",
+                "parentName": "雅思IELTS",
+                "subList": null
+              },
+              {
+                "name": "雅思6.5分",
+                "parentName": "雅思IELTS",
+                "subList": null
+              },
+              {
+                "name": "雅思7.0分",
+                "parentName": "雅思IELTS",
+                "subList": null
+              },
+              {
+                "name": "雅思7.5分",
+                "parentName": "雅思IELTS",
+                "subList": null
+              },
+              {
+                "name": "雅思8.0分",
+                "parentName": "雅思IELTS",
+                "subList": null
+              },
+              {
+                "name": "雅思8.5分",
+                "parentName": "雅思IELTS",
+                "subList": null
+              },
+              {
+                "name": "雅思9.0分",
+                "parentName": "雅思IELTS",
+                "subList": null
+              }
+            ]
+          },
+          { "name": "英语专业四级", "parentName": "英语类", "subList": [] },
+          { "name": "英语专业八级", "parentName": "英语类", "subList": [] },
+          {
+            "name": "托福TOEFL",
+            "parentName": "英语类",
+            "subList": [
+              {
+                "name": "托福80-90分",
+                "parentName": "托福TOEFL",
+                "subList": null
+              },
+              {
+                "name": "托福91-100分",
+                "parentName": "托福TOEFL",
+                "subList": null
+              },
+              {
+                "name": "托福101-110分",
+                "parentName": "托福TOEFL",
+                "subList": null
+              },
+              {
+                "name": "托福111-120分",
+                "parentName": "托福TOEFL",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "TOEIC托业英语考试",
+            "parentName": "英语类",
+            "subList": [
+              {
+                "name": "托业英语220分以下",
+                "parentName": "TOEIC托业英语考试",
+                "subList": null
+              },
+              {
+                "name": "托业英语220-465分",
+                "parentName": "TOEIC托业英语考试",
+                "subList": null
+              },
+              {
+                "name": "托业英语470-725分",
+                "parentName": "TOEIC托业英语考试",
+                "subList": null
+              },
+              {
+                "name": "托业英语730-855分",
+                "parentName": "TOEIC托业英语考试",
+                "subList": null
+              },
+              {
+                "name": "托业英语860分以上",
+                "parentName": "TOEIC托业英语考试",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "GRE",
+            "parentName": "英语类",
+            "subList": [
+              { "name": "GRE 300-310分", "parentName": "GRE", "subList": null },
+              { "name": "GRE 310-320分", "parentName": "GRE", "subList": null },
+              { "name": "GRE 320-330分", "parentName": "GRE", "subList": null },
+              { "name": "GRE 330-340分", "parentName": "GRE", "subList": null }
+            ]
+          },
+          {
+            "name": "GMAT",
+            "parentName": "英语类",
+            "subList": [
+              {
+                "name": "GMAT 650-680分",
+                "parentName": "GMAT",
+                "subList": null
+              },
+              {
+                "name": "GMAT 680-720分",
+                "parentName": "GMAT",
+                "subList": null
+              },
+              {
+                "name": "GMAT 720-750分",
+                "parentName": "GMAT",
+                "subList": null
+              },
+              { "name": "GMAT750分以上", "parentName": "GMAT", "subList": null }
+            ]
+          },
+          {
+            "name": "BEC剑桥商务英语",
+            "parentName": "英语类",
+            "subList": [
+              {
+                "name": "BEC剑桥商务英语初级",
+                "parentName": "BEC剑桥商务英语",
+                "subList": null
+              },
+              {
+                "name": "BEC剑桥商务英语中级",
+                "parentName": "BEC剑桥商务英语",
+                "subList": null
+              },
+              {
+                "name": "BEC剑桥商务英语高级",
+                "parentName": "BEC剑桥商务英语",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "PETS全国英语等级考试",
+            "parentName": "英语类",
+            "subList": [
+              {
+                "name": "全国英语等级考试PETS-1",
+                "parentName": "PETS全国英语等级考试",
+                "subList": null
+              },
+              {
+                "name": "全国英语等级考试PETS-2",
+                "parentName": "PETS全国英语等级考试",
+                "subList": null
+              },
+              {
+                "name": "全国英语等级考试PETS-3",
+                "parentName": "PETS全国英语等级考试",
+                "subList": null
+              },
+              {
+                "name": "全国英语等级考试PETS-4",
+                "parentName": "PETS全国英语等级考试",
+                "subList": null
+              },
+              {
+                "name": "全国英语等级考试PETS-5",
+                "parentName": "PETS全国英语等级考试",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "CATTI英语翻译资格证书",
+            "parentName": "英语类",
+            "subList": [
+              {
+                "name": "CATTI英语一级口译",
+                "parentName": "CATTI英语翻译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI英语二级口译",
+                "parentName": "CATTI英语翻译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI英语三级口译",
+                "parentName": "CATTI英语翻译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI英语一级笔译",
+                "parentName": "CATTI英语翻译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI英语二级笔译",
+                "parentName": "CATTI英语翻译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI英语三级笔译",
+                "parentName": "CATTI英语翻译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI英语资深翻译",
+                "parentName": "CATTI英语翻译资格证书",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "上海外语口译证书",
+            "parentName": "英语类",
+            "subList": [
+              {
+                "name": "上海外语口译英语口译基础能力",
+                "parentName": "上海外语口译证书",
+                "subList": null
+              },
+              {
+                "name": "上海外语口译英语中级口译",
+                "parentName": "上海外语口译证书",
+                "subList": null
+              },
+              {
+                "name": "上海外语口译英语高级口译",
+                "parentName": "上海外语口译证书",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "ETTBL商务英语口译证书",
+            "parentName": "英语类",
+            "subList": [
+              {
+                "name": "ETTBL商务英语初级口译",
+                "parentName": "ETTBL商务英语口译证书",
+                "subList": null
+              },
+              {
+                "name": "ETTBL商务英语中级口译",
+                "parentName": "ETTBL商务英语口译证书",
+                "subList": null
+              },
+              {
+                "name": "ETTBL商务英语高级口译",
+                "parentName": "ETTBL商务英语口译证书",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "ETTBL商务英语笔译证书",
+            "parentName": "英语类",
+            "subList": [
+              {
+                "name": "ETTBL商务英语初级笔译",
+                "parentName": "ETTBL商务英语笔译证书",
+                "subList": null
+              },
+              {
+                "name": "ETTBL商务英语中级笔译",
+                "parentName": "ETTBL商务英语笔译证书",
+                "subList": null
+              },
+              {
+                "name": "ETTBL商务英语高级笔译",
+                "parentName": "ETTBL商务英语笔译证书",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "TOEIC Bridge托业桥英语证书",
+            "parentName": "英语类",
+            "subList": []
+          },
+          {
+            "name": "高等学校英语应用能力考试",
+            "parentName": "英语类",
+            "subList": [
+              {
+                "name": "高等学校英语应用能力A级",
+                "parentName": "高等学校英语应用能力考试",
+                "subList": null
+              },
+              {
+                "name": "高等学校英语应用能力B级",
+                "parentName": "高等学校英语应用能力考试",
+                "subList": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "外语类",
+        "parentName": "",
+        "subList": [
+          {
+            "name": "日语等级考试",
+            "parentName": "外语类",
+            "subList": [
+              {
+                "name": "日语N1",
+                "parentName": "日语等级考试",
+                "subList": null
+              },
+              {
+                "name": "日语N2",
+                "parentName": "日语等级考试",
+                "subList": null
+              },
+              {
+                "name": "日语N3",
+                "parentName": "日语等级考试",
+                "subList": null
+              },
+              {
+                "name": "日语N4",
+                "parentName": "日语等级考试",
+                "subList": null
+              },
+              {
+                "name": "日语N5",
+                "parentName": "日语等级考试",
+                "subList": null
+              }
+            ]
+          },
+          { "name": "日语专业八级", "parentName": "外语类", "subList": [] },
+          { "name": "日语专业四级", "parentName": "外语类", "subList": [] },
+          { "name": "大学日语四级", "parentName": "外语类", "subList": [] },
+          { "name": "大学日语六级", "parentName": "外语类", "subList": [] },
+          { "name": "德语专业四级", "parentName": "外语类", "subList": [] },
+          {
+            "name": "德福TestDaF",
+            "parentName": "外语类",
+            "subList": [
+              {
+                "name": "德福TestDaF3级（TDN3）",
+                "parentName": "德福TestDaF",
+                "subList": null
+              },
+              {
+                "name": "德福TestDaF4级（TDN4）",
+                "parentName": "德福TestDaF",
+                "subList": null
+              },
+              {
+                "name": "德福TestDaF5级（TDN5）",
+                "parentName": "德福TestDaF",
+                "subList": null
+              }
+            ]
+          },
+          { "name": "德语专业八级", "parentName": "外语类", "subList": [] },
+          { "name": "西班牙语专业四级", "parentName": "外语类", "subList": [] },
+          { "name": "西班牙语专业八级", "parentName": "外语类", "subList": [] },
+          {
+            "name": "西班牙语DELE考试",
+            "parentName": "外语类",
+            "subList": [
+              {
+                "name": "西班牙语DELE A1级",
+                "parentName": "西班牙语DELE考试",
+                "subList": null
+              },
+              {
+                "name": "西班牙语DELE A2级",
+                "parentName": "西班牙语DELE考试",
+                "subList": null
+              },
+              {
+                "name": "西班牙语DELE B1级",
+                "parentName": "西班牙语DELE考试",
+                "subList": null
+              },
+              {
+                "name": "西班牙语DELE B2级",
+                "parentName": "西班牙语DELE考试",
+                "subList": null
+              },
+              {
+                "name": "西班牙语DELE C1级",
+                "parentName": "西班牙语DELE考试",
+                "subList": null
+              },
+              {
+                "name": "西班牙语DELE C2级",
+                "parentName": "西班牙语DELE考试",
+                "subList": null
+              }
+            ]
+          },
+          { "name": "法语公共四级", "parentName": "外语类", "subList": [] },
+          {
+            "name": "TEF法语水平考试",
+            "parentName": "外语类",
+            "subList": [
+              {
+                "name": "TEF法语A1级",
+                "parentName": "TEF法语水平考试",
+                "subList": null
+              },
+              {
+                "name": "TEF法语A2级",
+                "parentName": "TEF法语水平考试",
+                "subList": null
+              },
+              {
+                "name": "TEF法语B1级",
+                "parentName": "TEF法语水平考试",
+                "subList": null
+              },
+              {
+                "name": "TEF法语B2级",
+                "parentName": "TEF法语水平考试",
+                "subList": null
+              },
+              {
+                "name": "TEF法语C1级",
+                "parentName": "TEF法语水平考试",
+                "subList": null
+              },
+              {
+                "name": "TEF法语C2级",
+                "parentName": "TEF法语水平考试",
+                "subList": null
+              }
+            ]
+          },
+          { "name": "法语专业八级", "parentName": "外语类", "subList": [] },
+          { "name": "法语专业四级", "parentName": "外语类", "subList": [] },
+          {
+            "name": "DALF 法语深入学习文凭",
+            "parentName": "外语类",
+            "subList": [
+              {
+                "name": "DALF法语深入学习C1级文凭",
+                "parentName": "DALF 法语深入学习文凭",
+                "subList": null
+              },
+              {
+                "name": "DALF法语深入学习C2级文凭",
+                "parentName": "DALF 法语深入学习文凭",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "DELF法语学习文凭",
+            "parentName": "外语类",
+            "subList": [
+              {
+                "name": "DELF法语学习A1级文凭",
+                "parentName": "DELF法语学习文凭",
+                "subList": null
+              },
+              {
+                "name": "DELF法语学习A2级文凭",
+                "parentName": "DELF法语学习文凭",
+                "subList": null
+              },
+              {
+                "name": "DELF法语学习B1级文凭",
+                "parentName": "DELF法语学习文凭",
+                "subList": null
+              },
+              {
+                "name": "DELF法语学习B2级文凭",
+                "parentName": "DELF法语学习文凭",
+                "subList": null
+              }
+            ]
+          },
+          { "name": "俄语专业四级", "parentName": "外语类", "subList": [] },
+          { "name": "俄语专业八级", "parentName": "外语类", "subList": [] },
+          {
+            "name": "ТРКИ对外俄语等级考试",
+            "parentName": "外语类",
+            "subList": [
+              {
+                "name": "ТРКИ对外俄语一级",
+                "parentName": "ТРКИ对外俄语等级考试",
+                "subList": null
+              },
+              {
+                "name": "ТРКИ对外俄语二级",
+                "parentName": "ТРКИ对外俄语等级考试",
+                "subList": null
+              },
+              {
+                "name": "ТРКИ对外俄语三级",
+                "parentName": "ТРКИ对外俄语等级考试",
+                "subList": null
+              },
+              {
+                "name": "ТРКИ对外俄语四级",
+                "parentName": "ТРКИ对外俄语等级考试",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "TOPIK韩国语能力考试",
+            "parentName": "外语类",
+            "subList": [
+              {
+                "name": "韩国语TOPIK3级",
+                "parentName": "TOPIK韩国语能力考试",
+                "subList": null
+              },
+              {
+                "name": "韩国语TOPIK4级",
+                "parentName": "TOPIK韩国语能力考试",
+                "subList": null
+              },
+              {
+                "name": "韩国语TOPIK5级",
+                "parentName": "TOPIK韩国语能力考试",
+                "subList": null
+              },
+              {
+                "name": "韩国语TOPIK6级",
+                "parentName": "TOPIK韩国语能力考试",
+                "subList": null
+              }
+            ]
+          },
+          { "name": "阿拉伯语专业四级", "parentName": "外语类", "subList": [] },
+          {
+            "name": "CATTI日语翻译资格证书",
+            "parentName": "外语类",
+            "subList": [
+              {
+                "name": "CATTI日语一级口译",
+                "parentName": "CATTI日语翻译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI日语二级口译",
+                "parentName": "CATTI日语翻译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI日语三级口译",
+                "parentName": "CATTI日语翻译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI日语一级笔译",
+                "parentName": "CATTI日语翻译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI日语二级笔译",
+                "parentName": "CATTI日语翻译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI日语三级笔译",
+                "parentName": "CATTI日语翻译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI日语资深翻译",
+                "parentName": "CATTI日语翻译资格证书",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "CATTI法语翻译资格证书",
+            "parentName": "外语类",
+            "subList": [
+              {
+                "name": "CATTI法语一级口译",
+                "parentName": "CATTI法语翻译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI法语二级口译",
+                "parentName": "CATTI法语翻译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI法语三级口译",
+                "parentName": "CATTI法语翻译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI法语一级笔译",
+                "parentName": "CATTI法语翻译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI法语二级笔译",
+                "parentName": "CATTI法语翻译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI法语三级笔译",
+                "parentName": "CATTI法语翻译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI法语资深翻译",
+                "parentName": "CATTI法语翻译资格证书",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "CATTI阿拉伯语口译资格证书",
+            "parentName": "外语类",
+            "subList": [
+              {
+                "name": "CATTI阿拉伯语一级口译",
+                "parentName": "CATTI阿拉伯语口译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI阿拉伯语二级口译",
+                "parentName": "CATTI阿拉伯语口译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI阿拉伯语三级口译",
+                "parentName": "CATTI阿拉伯语口译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI阿拉伯语一级笔译",
+                "parentName": "CATTI阿拉伯语口译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI阿拉伯语二级笔译",
+                "parentName": "CATTI阿拉伯语口译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI阿拉伯语三级笔译",
+                "parentName": "CATTI阿拉伯语口译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI阿拉伯语资深翻译",
+                "parentName": "CATTI阿拉伯语口译资格证书",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "CATTI俄语口译资格证书",
+            "parentName": "外语类",
+            "subList": [
+              {
+                "name": "CATTI俄语一级口译",
+                "parentName": "CATTI俄语口译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI俄语二级口译",
+                "parentName": "CATTI俄语口译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI俄语三级口译",
+                "parentName": "CATTI俄语口译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI俄语一级笔译",
+                "parentName": "CATTI俄语口译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI俄语二级笔译",
+                "parentName": "CATTI俄语口译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI俄语三级笔译",
+                "parentName": "CATTI俄语口译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI俄语资深翻译",
+                "parentName": "CATTI俄语口译资格证书",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "CATTI德语口译资格证书",
+            "parentName": "外语类",
+            "subList": [
+              {
+                "name": "CATTI德语一级口译",
+                "parentName": "CATTI德语口译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI德语二级口译",
+                "parentName": "CATTI德语口译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI德语三级口译",
+                "parentName": "CATTI德语口译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI德语一级笔译",
+                "parentName": "CATTI德语口译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI德语二级笔译",
+                "parentName": "CATTI德语口译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI德语三级笔译",
+                "parentName": "CATTI德语口译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI德语资深翻译",
+                "parentName": "CATTI德语口译资格证书",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "CATTI西班牙语口译资格证书",
+            "parentName": "外语类",
+            "subList": [
+              {
+                "name": "CATTI西班牙语一级口译",
+                "parentName": "CATTI西班牙语口译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI西班牙语二级口译",
+                "parentName": "CATTI西班牙语口译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI西班牙语三级口译",
+                "parentName": "CATTI西班牙语口译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI西班牙语一级笔译",
+                "parentName": "CATTI西班牙语口译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI西班牙语二级笔译",
+                "parentName": "CATTI西班牙语口译资格证书",
+                "subList": null
+              },
+              {
+                "name": "CATTI西班牙语三级笔译CATTI",
+                "parentName": "CATTI西班牙语口译资格证书",
+                "subList": null
+              },
+              {
+                "name": "西班牙语资深翻译",
+                "parentName": "CATTI西班牙语口译资格证书",
+                "subList": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "IT类",
+        "parentName": "",
+        "subList": [
+          {
+            "name": "计算机等级考试",
+            "parentName": "IT类",
+            "subList": [
+              {
+                "name": "计算机一级",
+                "parentName": "计算机等级考试",
+                "subList": null
+              },
+              {
+                "name": "计算机二级",
+                "parentName": "计算机等级考试",
+                "subList": null
+              },
+              {
+                "name": "计算机三级",
+                "parentName": "计算机等级考试",
+                "subList": null
+              },
+              {
+                "name": "计算机四级",
+                "parentName": "计算机等级考试",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "计算机初级专业技术资格",
+            "parentName": "IT类",
+            "subList": [
+              {
+                "name": "程序员技术资格",
+                "parentName": "计算机初级专业技术资格",
+                "subList": null
+              },
+              {
+                "name": "网络管理员",
+                "parentName": "计算机初级专业技术资格",
+                "subList": null
+              },
+              {
+                "name": "信息系统运行管理员",
+                "parentName": "计算机初级专业技术资格",
+                "subList": null
+              },
+              {
+                "name": "网页制作员",
+                "parentName": "计算机初级专业技术资格",
+                "subList": null
+              },
+              {
+                "name": "信息处理技术员",
+                "parentName": "计算机初级专业技术资格",
+                "subList": null
+              },
+              {
+                "name": "多媒体应用制作技术员",
+                "parentName": "计算机初级专业技术资格",
+                "subList": null
+              },
+              {
+                "name": "电子商务技术员",
+                "parentName": "计算机初级专业技术资格",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "计算机中级专业技术资格",
+            "parentName": "IT类",
+            "subList": [
+              {
+                "name": "软件评测师",
+                "parentName": "计算机中级专业技术资格",
+                "subList": null
+              },
+              {
+                "name": "软件设计师",
+                "parentName": "计算机中级专业技术资格",
+                "subList": null
+              },
+              {
+                "name": "软件过程能力评估师",
+                "parentName": "计算机中级专业技术资格",
+                "subList": null
+              },
+              {
+                "name": "网络工程师",
+                "parentName": "计算机中级专业技术资格",
+                "subList": null
+              },
+              {
+                "name": "多媒体应用设计师",
+                "parentName": "计算机中级专业技术资格",
+                "subList": null
+              },
+              {
+                "name": "嵌入式系统设计师",
+                "parentName": "计算机中级专业技术资格",
+                "subList": null
+              },
+              {
+                "name": "计算机辅助设计师",
+                "parentName": "计算机中级专业技术资格",
+                "subList": null
+              },
+              {
+                "name": "电子商务设计师",
+                "parentName": "计算机中级专业技术资格",
+                "subList": null
+              },
+              {
+                "name": "系统集成项目管理工程师",
+                "parentName": "计算机中级专业技术资格",
+                "subList": null
+              },
+              {
+                "name": "信息系统监理师",
+                "parentName": "计算机中级专业技术资格",
+                "subList": null
+              },
+              {
+                "name": "数据库系统工程师",
+                "parentName": "计算机中级专业技术资格",
+                "subList": null
+              },
+              {
+                "name": "信息系统管理工程师",
+                "parentName": "计算机中级专业技术资格",
+                "subList": null
+              },
+              {
+                "name": "信息安全工程师",
+                "parentName": "计算机中级专业技术资格",
+                "subList": null
+              },
+              {
+                "name": "计算机硬件工程师",
+                "parentName": "计算机中级专业技术资格",
+                "subList": null
+              },
+              {
+                "name": "信息技术支持工程师",
+                "parentName": "计算机中级专业技术资格",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "计算机高级专业技术资格",
+            "parentName": "IT类",
+            "subList": [
+              {
+                "name": "信息系统项目管理师",
+                "parentName": "计算机高级专业技术资格",
+                "subList": null
+              },
+              {
+                "name": "网络规划设计师",
+                "parentName": "计算机高级专业技术资格",
+                "subList": null
+              },
+              {
+                "name": "系统架构设计师",
+                "parentName": "计算机高级专业技术资格",
+                "subList": null
+              },
+              {
+                "name": "系统分析师",
+                "parentName": "计算机高级专业技术资格",
+                "subList": null
+              },
+              {
+                "name": "系统规划与管理师",
+                "parentName": "计算机高级专业技术资格",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "RHCE红帽认证",
+            "parentName": "IT类",
+            "subList": [
+              {
+                "name": "RHCSA红帽认证系统管理员",
+                "parentName": "RHCE红帽认证",
+                "subList": null
+              },
+              {
+                "name": "RHCE红帽认证工程师",
+                "parentName": "RHCE红帽认证",
+                "subList": null
+              },
+              {
+                "name": "RHCA红帽认证架构师",
+                "parentName": "RHCE红帽认证",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "Cisco思科认证",
+            "parentName": "IT类",
+            "subList": [
+              {
+                "name": "CCNA思科认证网络工程师",
+                "parentName": "Cisco思科认证",
+                "subList": null
+              },
+              {
+                "name": "CCNP思科认证网络高级工程师",
+                "parentName": "Cisco思科认证",
+                "subList": null
+              },
+              {
+                "name": "CCIE思科认证互联网专家",
+                "parentName": "Cisco思科认证",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "华为认证",
+            "parentName": "IT类",
+            "subList": [
+              {
+                "name": "HCIA华为认证ICT工程师",
+                "parentName": "华为认证",
+                "subList": null
+              },
+              {
+                "name": "HCIP华为认证ICT高级工程师",
+                "parentName": "华为认证",
+                "subList": null
+              },
+              {
+                "name": "HCIE华为认证ICT专家",
+                "parentName": "华为认证",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "阿里云认证",
+            "parentName": "IT类",
+            "subList": [
+              {
+                "name": "ACA阿里云助理工程师认证",
+                "parentName": "阿里云认证",
+                "subList": null
+              },
+              {
+                "name": "ACP阿里云专业工程师认证",
+                "parentName": "阿里云认证",
+                "subList": null
+              },
+              {
+                "name": "ACE阿里云高级工程师认证",
+                "parentName": "阿里云认证",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "Autodesk认证",
+            "parentName": "IT类",
+            "subList": [
+              {
+                "name": "AutoCAD工程师（一级）",
+                "parentName": "Autodesk认证",
+                "subList": null
+              },
+              {
+                "name": "AutoCAD工程师（二级）",
+                "parentName": "Autodesk认证",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "全国CAD技能等级证书",
+            "parentName": "IT类",
+            "subList": [
+              {
+                "name": "全国CAD技能一级证书",
+                "parentName": "全国CAD技能等级证书",
+                "subList": null
+              },
+              {
+                "name": "全国CAD技能二级证书",
+                "parentName": "全国CAD技能等级证书",
+                "subList": null
+              },
+              {
+                "name": "全国CAD技能三级证书",
+                "parentName": "全国CAD技能等级证书",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "电子商务师职业资格证",
+            "parentName": "IT类",
+            "subList": [
+              {
+                "name": "电子商务员",
+                "parentName": "电子商务师职业资格证",
+                "subList": null
+              },
+              {
+                "name": "助理电子商务师",
+                "parentName": "电子商务师职业资格证",
+                "subList": null
+              },
+              {
+                "name": "电子商务师",
+                "parentName": "电子商务师职业资格证",
+                "subList": null
+              },
+              {
+                "name": "高级电子商务师",
+                "parentName": "电子商务师职业资格证",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "NIT全国计算机应用水平证书",
+            "parentName": "IT类",
+            "subList": []
+          },
+          {
+            "name": "CISSP信息系统安全专业认证",
+            "parentName": "IT类",
+            "subList": []
+          },
+          {
+            "name": "NCIE全国信息化工程师项目证书",
+            "parentName": "IT类",
+            "subList": []
+          },
+          {
+            "name": "腾讯云认证",
+            "parentName": "IT类",
+            "subList": [
+              { "name": "TCA", "parentName": "腾讯云认证", "subList": null },
+              { "name": "TCP", "parentName": "腾讯云认证", "subList": null },
+              { "name": "TCE", "parentName": "腾讯云认证", "subList": null }
+            ]
+          },
+          {
+            "name": "Kubernetes认证",
+            "parentName": "IT类",
+            "subList": [
+              {
+                "name": "CKA管理员认证",
+                "parentName": "Kubernetes认证",
+                "subList": null
+              },
+              {
+                "name": "CKAD应用程序开发者认证",
+                "parentName": "Kubernetes认证",
+                "subList": null
+              },
+              {
+                "name": "CKS安全专家认证",
+                "parentName": "Kubernetes认证",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "微软认证MCP",
+            "parentName": "IT类",
+            "subList": [
+              { "name": "MCE", "parentName": "微软认证MCP", "subList": null },
+              { "name": "MCSA", "parentName": "微软认证MCP", "subList": null },
+              { "name": "MCSD", "parentName": "微软认证MCP", "subList": null },
+              { "name": "MCSE", "parentName": "微软认证MCP", "subList": null },
+              { "name": "MOS", "parentName": "微软认证MCP", "subList": null },
+              { "name": "MTA", "parentName": "微软认证MCP", "subList": null }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "项目管理类",
+        "parentName": "",
+        "subList": [
+          {
+            "name": "NPDP产品经理认证",
+            "parentName": "项目管理类",
+            "subList": []
+          },
+          {
+            "name": "PMP项目管理认证",
+            "parentName": "项目管理类",
+            "subList": []
+          },
+          {
+            "name": "ITIL IT服务管理认证",
+            "parentName": "项目管理类",
+            "subList": [
+              {
+                "name": "ITIL IT服务管理基础认证",
+                "parentName": "ITIL IT服务管理认证",
+                "subList": null
+              },
+              {
+                "name": "ITIL IT服务管理中级认证",
+                "parentName": "ITIL IT服务管理认证",
+                "subList": null
+              },
+              {
+                "name": "ITIL IT服务管理专家认证",
+                "parentName": "ITIL IT服务管理认证",
+                "subList": null
+              },
+              {
+                "name": "ITIL IT服务管理大师认证",
+                "parentName": "ITIL IT服务管理认证",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "国家项目管理资格证书",
+            "parentName": "项目管理类",
+            "subList": [
+              {
+                "name": "国家项目管理员资格证书",
+                "parentName": "国家项目管理资格证书",
+                "subList": null
+              },
+              {
+                "name": "国家助理项目管理师资格证书",
+                "parentName": "国家项目管理资格证书",
+                "subList": null
+              },
+              {
+                "name": "国家项目管理师资格证书",
+                "parentName": "国家项目管理资格证书",
+                "subList": null
+              },
+              {
+                "name": "国家高级项目管理师资格证书",
+                "parentName": "国家项目管理资格证书",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "ACP敏捷管理认证",
+            "parentName": "项目管理类",
+            "subList": []
+          },
+          {
+            "name": "PRINCE2项目管理认证",
+            "parentName": "项目管理类",
+            "subList": [
+              {
+                "name": "PRINCE2项目管理基础级",
+                "parentName": "PRINCE2项目管理认证",
+                "subList": null
+              },
+              {
+                "name": "PRINCE2项目管理从业级",
+                "parentName": "PRINCE2项目管理认证",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "CSM敏捷项目管理专家",
+            "parentName": "项目管理类",
+            "subList": []
+          },
+          {
+            "name": "IPMP国际项目经理资质认证",
+            "parentName": "项目管理类",
+            "subList": [
+              {
+                "name": "IPMP国际项目经理A级认证",
+                "parentName": "IPMP国际项目经理资质认证",
+                "subList": null
+              },
+              {
+                "name": "IPMP国际项目经理B级认证",
+                "parentName": "IPMP国际项目经理资质认证",
+                "subList": null
+              },
+              {
+                "name": "IPMP国际项目经理C级认证",
+                "parentName": "IPMP国际项目经理资质认证",
+                "subList": null
+              },
+              {
+                "name": "IPMP国际项目经理D级认证",
+                "parentName": "IPMP国际项目经理资质认证",
+                "subList": null
+              }
+            ]
+          },
+          { "name": "SAFe敏捷认证", "parentName": "项目管理类", "subList": [] }
+        ]
+      },
+      {
+        "name": "会计类",
+        "parentName": "",
+        "subList": [
+          {
+            "name": "会计职称",
+            "parentName": "会计类",
+            "subList": [
+              {
+                "name": "会计初级职称",
+                "parentName": "会计职称",
+                "subList": null
+              },
+              {
+                "name": "会计中级职称",
+                "parentName": "会计职称",
+                "subList": null
+              },
+              {
+                "name": "会计高级职称",
+                "parentName": "会计职称",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "CPA中国注册会计师",
+            "parentName": "会计类",
+            "subList": [
+              {
+                "name": "通过CPA会计",
+                "parentName": "CPA中国注册会计师",
+                "subList": null
+              },
+              {
+                "name": "通过CPA审计",
+                "parentName": "CPA中国注册会计师",
+                "subList": null
+              },
+              {
+                "name": "通过CPA财管",
+                "parentName": "CPA中国注册会计师",
+                "subList": null
+              },
+              {
+                "name": "通过CPA经济法",
+                "parentName": "CPA中国注册会计师",
+                "subList": null
+              },
+              {
+                "name": "通过CPA税法",
+                "parentName": "CPA中国注册会计师",
+                "subList": null
+              },
+              {
+                "name": "通过CPA战略",
+                "parentName": "CPA中国注册会计师",
+                "subList": null
+              },
+              {
+                "name": "非执业CPA会员",
+                "parentName": "CPA中国注册会计师",
+                "subList": null
+              },
+              {
+                "name": "执业CPA会员",
+                "parentName": "CPA中国注册会计师",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "澳洲注册会计师",
+            "parentName": "会计类",
+            "subList": [
+              {
+                "name": "澳洲注会通过部分科目",
+                "parentName": "澳洲注册会计师",
+                "subList": null
+              },
+              {
+                "name": "澳洲注册会计师",
+                "parentName": "澳洲注册会计师",
+                "subList": null
+              },
+              {
+                "name": "澳洲注会资深会员",
+                "parentName": "澳洲注册会计师",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "ACA英国皇家特许会计师",
+            "parentName": "会计类",
+            "subList": [
+              {
+                "name": "CFAB证书",
+                "parentName": "ACA英国皇家特许会计师",
+                "subList": null
+              },
+              {
+                "name": "ACA英国皇家特许会计师",
+                "parentName": "ACA英国皇家特许会计师",
+                "subList": null
+              },
+              {
+                "name": "FCA资深英国皇家特许会计师",
+                "parentName": "ACA英国皇家特许会计师",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "AIA国际会计师",
+            "parentName": "会计类",
+            "subList": [
+              {
+                "name": "AIA国际会计师公会毕业生会员",
+                "parentName": "AIA国际会计师",
+                "subList": null
+              },
+              {
+                "name": "AAIA国际会计师公会全权会员",
+                "parentName": "AIA国际会计师",
+                "subList": null
+              },
+              {
+                "name": "AMIA国际会计师公会联席会员",
+                "parentName": "AIA国际会计师",
+                "subList": null
+              },
+              {
+                "name": "FAIA国际会计师公会资深全权会员",
+                "parentName": "AIA国际会计师",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "IPA澳大利亚公共会计师",
+            "parentName": "会计类",
+            "subList": [
+              {
+                "name": "AIPA澳大利亚初级公共会计师",
+                "parentName": "IPA澳大利亚公共会计师",
+                "subList": null
+              },
+              {
+                "name": "MIPA公共会计师",
+                "parentName": "IPA澳大利亚公共会计师",
+                "subList": null
+              },
+              {
+                "name": "FIPA资深公共会计师",
+                "parentName": "IPA澳大利亚公共会计师",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "加拿大特许专业会计师",
+            "parentName": "会计类",
+            "subList": []
+          },
+          {
+            "name": "ACCA特许公认会计师",
+            "parentName": "会计类",
+            "subList": []
+          },
+          {
+            "name": "AICPA美国注册会计师",
+            "parentName": "会计类",
+            "subList": []
+          },
+          {
+            "name": "CMA美国注册管理会计师",
+            "parentName": "会计类",
+            "subList": []
+          },
+          { "name": "会计从业资格证", "parentName": "会计类", "subList": [] }
+        ]
+      },
+      {
+        "name": "审计类",
+        "parentName": "",
+        "subList": [
+          {
+            "name": "CISA信息系统审计师",
+            "parentName": "审计类",
+            "subList": []
+          },
+          { "name": "CIA国际注册内审师", "parentName": "审计类", "subList": [] }
+        ]
+      },
+      {
+        "name": "统计类",
+        "parentName": "",
+        "subList": [
+          { "name": "统计从业资格证", "parentName": "统计类", "subList": [] },
+          {
+            "name": "统计师职称",
+            "parentName": "统计类",
+            "subList": [
+              {
+                "name": "初级统计师",
+                "parentName": "统计师职称",
+                "subList": null
+              },
+              {
+                "name": "中级统计师",
+                "parentName": "统计师职称",
+                "subList": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "精算类",
+        "parentName": "",
+        "subList": [
+          {
+            "name": "中国精算师",
+            "parentName": "精算类",
+            "subList": [
+              {
+                "name": "中国准精算师",
+                "parentName": "中国精算师",
+                "subList": null
+              },
+              {
+                "name": "中国精算师",
+                "parentName": "中国精算师",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "SOA北美精算师",
+            "parentName": "精算类",
+            "subList": [
+              {
+                "name": "SOA北美准精算师",
+                "parentName": "SOA北美精算师",
+                "subList": null
+              },
+              {
+                "name": "SOA北美精算师",
+                "parentName": "SOA北美精算师",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "英国精算师",
+            "parentName": "精算类",
+            "subList": [
+              {
+                "name": "精算专业技能证书（DAT）",
+                "parentName": "英国精算师",
+                "subList": null
+              },
+              {
+                "name": "准精算师 （AIA）",
+                "parentName": "英国精算师",
+                "subList": null
+              },
+              {
+                "name": "精算师 （FIA）",
+                "parentName": "英国精算师",
+                "subList": null
+              },
+              {
+                "name": "企业风险管理精算师（CERA）",
+                "parentName": "英国精算师",
+                "subList": null
+              },
+              {
+                "name": "认证精算分析师资格证书（CAA）",
+                "parentName": "英国精算师",
+                "subList": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "金融类",
+        "parentName": "",
+        "subList": [
+          { "name": "证券从业资格证", "parentName": "金融类", "subList": [] },
+          { "name": "基金从业资格证", "parentName": "金融类", "subList": [] },
+          {
+            "name": "CFA特许金融分析师",
+            "parentName": "金融类",
+            "subList": [
+              {
+                "name": "CFA特许金融分析师一级",
+                "parentName": "CFA特许金融分析师",
+                "subList": null
+              },
+              {
+                "name": "CFA特许金融分析师二级",
+                "parentName": "CFA特许金融分析师",
+                "subList": null
+              },
+              {
+                "name": "CFA特许金融分析师三级",
+                "parentName": "CFA特许金融分析师",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "CFP国际金融理财师",
+            "parentName": "金融类",
+            "subList": []
+          },
+          {
+            "name": "税务师",
+            "parentName": "金融类",
+            "subList": [
+              {
+                "name": "税务师通过部分科目",
+                "parentName": "税务师",
+                "subList": null
+              },
+              {
+                "name": "税务师非执业会员",
+                "parentName": "税务师",
+                "subList": null
+              },
+              {
+                "name": "税务师执业会员",
+                "parentName": "税务师",
+                "subList": null
+              }
+            ]
+          },
+          { "name": "AFP金融理财师", "parentName": "金融类", "subList": [] },
+          { "name": "银行从业资格证", "parentName": "金融类", "subList": [] },
+          { "name": "期货从业资格证", "parentName": "金融类", "subList": [] },
+          {
+            "name": "FRM金融风险管理师",
+            "parentName": "金融类",
+            "subList": [
+              {
+                "name": "FRM金融风险管理师一级",
+                "parentName": "FRM金融风险管理师",
+                "subList": null
+              },
+              {
+                "name": "FRM金融风险管理师二级",
+                "parentName": "FRM金融风险管理师",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "经济师职称",
+            "parentName": "金融类",
+            "subList": [
+              {
+                "name": "经济师初级职称",
+                "parentName": "经济师职称",
+                "subList": null
+              },
+              {
+                "name": "经济师中级职称",
+                "parentName": "经济师职称",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "RFP注册财务策划师",
+            "parentName": "金融类",
+            "subList": []
+          },
+          {
+            "name": "CIIA注册国际投资分析师",
+            "parentName": "金融类",
+            "subList": []
+          },
+          { "name": "注册资产评估师", "parentName": "金融类", "subList": [] },
+          {
+            "name": "CIMA特许管理会计师",
+            "parentName": "金融类",
+            "subList": [
+              {
+                "name": "CIMA管理会计",
+                "parentName": "CIMA特许管理会计师",
+                "subList": null
+              },
+              {
+                "name": "CIMA高级管理会计",
+                "parentName": "CIMA特许管理会计师",
+                "subList": null
+              },
+              {
+                "name": "ACMA特许管理会计师",
+                "parentName": "CIMA特许管理会计师",
+                "subList": null
+              },
+              {
+                "name": "CGMA全球注册管理会计师",
+                "parentName": "CIMA特许管理会计师",
+                "subList": null
+              }
+            ]
+          },
+          { "name": "保荐代表人", "parentName": "金融类", "subList": [] },
+          {
+            "name": "CFC注册财务顾问师",
+            "parentName": "金融类",
+            "subList": []
+          },
+          {
+            "name": "IFM国际财务管理师",
+            "parentName": "金融类",
+            "subList": [
+              {
+                "name": "EIFM初级财务管理师",
+                "parentName": "IFM国际财务管理师",
+                "subList": null
+              },
+              {
+                "name": "AIFM助理国际财务管理师",
+                "parentName": "IFM国际财务管理师",
+                "subList": null
+              },
+              {
+                "name": "IFM国际财务管理师",
+                "parentName": "IFM国际财务管理师",
+                "subList": null
+              },
+              {
+                "name": "SIFM高级国际财务管理师",
+                "parentName": "IFM国际财务管理师",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "信用管理师职业资格证",
+            "parentName": "金融类",
+            "subList": [
+              {
+                "name": "助理信用管理师",
+                "parentName": "信用管理师职业资格证",
+                "subList": null
+              },
+              {
+                "name": "信用管理师",
+                "parentName": "信用管理师职业资格证",
+                "subList": null
+              },
+              {
+                "name": "高级信用管理师",
+                "parentName": "信用管理师职业资格证",
+                "subList": null
+              }
+            ]
+          },
+          { "name": "信用评估师证书", "parentName": "金融类", "subList": [] }
+        ]
+      },
+      {
+        "name": "法律类",
+        "parentName": "",
+        "subList": [
+          { "name": "律师执业证", "parentName": "法律类", "subList": [] },
+          { "name": "法律职业资格证", "parentName": "法律类", "subList": [] }
+        ]
+      },
+      {
+        "name": "教育类",
+        "parentName": "",
+        "subList": [
+          {
+            "name": "教师资格证",
+            "parentName": "教育类",
+            "subList": [
+              {
+                "name": "教师资格证（幼儿园）",
+                "parentName": "教师资格证",
+                "subList": null
+              },
+              {
+                "name": "教师资格证（小学）",
+                "parentName": "教师资格证",
+                "subList": null
+              },
+              {
+                "name": "教师资格证（初中）",
+                "parentName": "教师资格证",
+                "subList": null
+              },
+              {
+                "name": "教师资格证（高中）",
+                "parentName": "教师资格证",
+                "subList": null
+              },
+              {
+                "name": "教师资格证（大学）",
+                "parentName": "教师资格证",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "世界英语教师协会TESOL证书",
+            "parentName": "教育类",
+            "subList": []
+          },
+          {
+            "name": "TEFL英语教师资格证书",
+            "parentName": "教育类",
+            "subList": []
+          },
+          {
+            "name": "CELTA剑桥大学教师证书",
+            "parentName": "教育类",
+            "subList": []
+          },
+          {
+            "name": "TKT英语教学能力证书",
+            "parentName": "教育类",
+            "subList": []
+          },
+          {
+            "name": "CELT-P英语教学证书（小学方向）",
+            "parentName": "教育类",
+            "subList": []
+          },
+          {
+            "name": "对外汉语教师资格证",
+            "parentName": "教育类",
+            "subList": []
+          },
+          {
+            "name": "ICA国际汉语教师职业资格证",
+            "parentName": "教育类",
+            "subList": []
+          },
+          {
+            "name": "汉办国际汉语教师证书",
+            "parentName": "教育类",
+            "subList": []
+          },
+          {
+            "name": "CELT-S英语教学证书（中学方向）",
+            "parentName": "教育类",
+            "subList": []
+          },
+          { "name": "企业培训师资格证", "parentName": "教育类", "subList": [] }
+        ]
+      },
+      {
+        "name": "幼教类",
+        "parentName": "",
+        "subList": [
+          { "name": "保育员资格证", "parentName": "幼教类", "subList": [] },
+          {
+            "name": "育婴师职业师资证书",
+            "parentName": "幼教类",
+            "subList": []
+          },
+          { "name": "幼儿园园长资格证", "parentName": "幼教类", "subList": [] },
+          {
+            "name": "幼儿园保健医生上岗证",
+            "parentName": "幼教类",
+            "subList": []
+          },
+          { "name": "蒙台梭利教育证书", "parentName": "幼教类", "subList": [] }
+        ]
+      },
+      {
+        "name": "汉语类",
+        "parentName": "",
+        "subList": [
+          {
+            "name": "普通话水平测试",
+            "parentName": "汉语类",
+            "subList": [
+              {
+                "name": "普通话一级甲等",
+                "parentName": "普通话水平测试",
+                "subList": null
+              },
+              {
+                "name": "普通话一级乙等",
+                "parentName": "普通话水平测试",
+                "subList": null
+              },
+              {
+                "name": "普通话二级甲等",
+                "parentName": "普通话水平测试",
+                "subList": null
+              },
+              {
+                "name": "普通话二级乙等",
+                "parentName": "普通话水平测试",
+                "subList": null
+              },
+              {
+                "name": "普通话三级甲等",
+                "parentName": "普通话水平测试",
+                "subList": null
+              },
+              {
+                "name": "普通话三级乙等",
+                "parentName": "普通话水平测试",
+                "subList": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "心理咨询类",
+        "parentName": "",
+        "subList": [
+          {
+            "name": "心理咨询师",
+            "parentName": "心理咨询类",
+            "subList": [
+              {
+                "name": "心理咨询师一级",
+                "parentName": "心理咨询师",
+                "subList": null
+              },
+              {
+                "name": "心理咨询师二级",
+                "parentName": "心理咨询师",
+                "subList": null
+              },
+              {
+                "name": "心理咨询师三级",
+                "parentName": "心理咨询师",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "婚姻家庭咨询师",
+            "parentName": "心理咨询类",
+            "subList": [
+              {
+                "name": "婚姻家庭咨询师一级",
+                "parentName": "婚姻家庭咨询师",
+                "subList": null
+              },
+              {
+                "name": "婚姻家庭咨询师二级",
+                "parentName": "婚姻家庭咨询师",
+                "subList": null
+              },
+              {
+                "name": "婚姻家庭咨询师三级",
+                "parentName": "婚姻家庭咨询师",
+                "subList": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "医疗类",
+        "parentName": "",
+        "subList": [
+          {
+            "name": "医师资格证",
+            "parentName": "医疗类",
+            "subList": [
+              {
+                "name": "执业助理医师资格证",
+                "parentName": "医师资格证",
+                "subList": null
+              },
+              {
+                "name": "执业医师资格证",
+                "parentName": "医师资格证",
+                "subList": null
+              }
+            ]
+          },
+          { "name": "护士资格证", "parentName": "医疗类", "subList": [] },
+          { "name": "执业药师资格证", "parentName": "医疗类", "subList": [] },
+          {
+            "name": "医生职称",
+            "parentName": "医疗类",
+            "subList": [
+              {
+                "name": "医生初级职称",
+                "parentName": "医生职称",
+                "subList": null
+              },
+              {
+                "name": "医生中级职称",
+                "parentName": "医生职称",
+                "subList": null
+              },
+              {
+                "name": "医生副高级职称",
+                "parentName": "医生职称",
+                "subList": null
+              },
+              {
+                "name": "医生正高级职称",
+                "parentName": "医生职称",
+                "subList": null
+              }
+            ]
+          },
+          { "name": "护士执业证书", "parentName": "医疗类", "subList": [] },
+          {
+            "name": "药师职称",
+            "parentName": "医疗类",
+            "subList": [
+              {
+                "name": "药师初级职称",
+                "parentName": "药师职称",
+                "subList": null
+              },
+              {
+                "name": "药师中级职称",
+                "parentName": "药师职称",
+                "subList": null
+              },
+              {
+                "name": "药师副高级职称",
+                "parentName": "药师职称",
+                "subList": null
+              },
+              {
+                "name": "药师高级职称",
+                "parentName": "药师职称",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "医师执业证书",
+            "parentName": "医疗类",
+            "subList": [
+              {
+                "name": "医师执业证书（临床）",
+                "parentName": "医师执业证书",
+                "subList": null
+              },
+              {
+                "name": "医师执业证书（中医）",
+                "parentName": "医师执业证书",
+                "subList": null
+              },
+              {
+                "name": "医师执业证书（口腔）",
+                "parentName": "医师执业证书",
+                "subList": null
+              },
+              {
+                "name": "医师执业证书（公共卫生）",
+                "parentName": "医师执业证书",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "验光师资格证",
+            "parentName": "医疗类",
+            "subList": [
+              {
+                "name": "初级验光员资格证",
+                "parentName": "验光师资格证",
+                "subList": null
+              },
+              {
+                "name": "中级验光员资格证",
+                "parentName": "验光师资格证",
+                "subList": null
+              },
+              {
+                "name": "高级验光员资格证",
+                "parentName": "验光师资格证",
+                "subList": null
+              },
+              {
+                "name": "验光技师资格证",
+                "parentName": "验光师资格证",
+                "subList": null
+              },
+              {
+                "name": "高级验光技师资格证",
+                "parentName": "验光师资格证",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "母婴护理师",
+            "parentName": "医疗类",
+            "subList": [
+              {
+                "name": "初级母婴护理师",
+                "parentName": "母婴护理师",
+                "subList": null
+              },
+              {
+                "name": "中级母婴护理师",
+                "parentName": "母婴护理师",
+                "subList": null
+              },
+              {
+                "name": "高级母婴护理师",
+                "parentName": "母婴护理师",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "护士职称",
+            "parentName": "医疗类",
+            "subList": [
+              {
+                "name": "护士初级职称",
+                "parentName": "护士职称",
+                "subList": null
+              },
+              {
+                "name": "护士中级职称",
+                "parentName": "护士职称",
+                "subList": null
+              },
+              {
+                "name": "护士副高级职称",
+                "parentName": "护士职称",
+                "subList": null
+              },
+              {
+                "name": "护士高级职称",
+                "parentName": "护士职称",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "中药调剂员资格证",
+            "parentName": "医疗类",
+            "subList": [
+              {
+                "name": "中药调剂员初级",
+                "parentName": "中药调剂员资格证",
+                "subList": null
+              },
+              {
+                "name": "中药调剂员中级",
+                "parentName": "中药调剂员资格证",
+                "subList": null
+              },
+              {
+                "name": "中药调剂员高级",
+                "parentName": "中药调剂员资格证",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "母婴保健技术考核合格证书",
+            "parentName": "医疗类",
+            "subList": []
+          },
+          {
+            "name": "康复理疗师专业技能证书",
+            "parentName": "医疗类",
+            "subList": [
+              {
+                "name": "助理康复理疗师",
+                "parentName": "康复理疗师专业技能证书",
+                "subList": null
+              },
+              {
+                "name": "康复理疗师",
+                "parentName": "康复理疗师专业技能证书",
+                "subList": null
+              },
+              {
+                "name": "高级康复理疗师",
+                "parentName": "康复理疗师专业技能证书",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "养老护理员职业资格",
+            "parentName": "医疗类",
+            "subList": [
+              {
+                "name": "养老护理员初级",
+                "parentName": "养老护理员职业资格",
+                "subList": null
+              },
+              {
+                "name": "养老护理员中级",
+                "parentName": "养老护理员职业资格",
+                "subList": null
+              },
+              {
+                "name": "养老护理员高级",
+                "parentName": "养老护理员职业资格",
+                "subList": null
+              },
+              {
+                "name": "养老护理员技师",
+                "parentName": "养老护理员职业资格",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "医学检验证书",
+            "parentName": "医疗类",
+            "subList": [
+              {
+                "name": "医学检验技术（士）",
+                "parentName": "医学检验证书",
+                "subList": null
+              },
+              {
+                "name": "医学检验技术师",
+                "parentName": "医学检验证书",
+                "subList": null
+              },
+              {
+                "name": "中级检验师",
+                "parentName": "医学检验证书",
+                "subList": null
+              },
+              {
+                "name": "副高级检验师",
+                "parentName": "医学检验证书",
+                "subList": null
+              },
+              {
+                "name": "高级检验师",
+                "parentName": "医学检验证书",
+                "subList": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "体育健身类",
+        "parentName": "",
+        "subList": [
+          {
+            "name": "健身教练国家职业资格证书",
+            "parentName": "体育健身类",
+            "subList": [
+              {
+                "name": "初级健身教练",
+                "parentName": "健身教练国家职业资格证书",
+                "subList": null
+              },
+              {
+                "name": "中级健身教练",
+                "parentName": "健身教练国家职业资格证书",
+                "subList": null
+              },
+              {
+                "name": "高级健身教练",
+                "parentName": "健身教练国家职业资格证书",
+                "subList": null
+              },
+              {
+                "name": "指导师级健身教练",
+                "parentName": "健身教练国家职业资格证书",
+                "subList": null
+              },
+              {
+                "name": "健身教练资格证",
+                "parentName": "健身教练国家职业资格证书",
+                "subList": null
+              },
+              {
+                "name": "中国健美协会专业健身教练证",
+                "parentName": "健身教练国家职业资格证书",
+                "subList": null
+              },
+              {
+                "name": "营养师证",
+                "parentName": "健身教练国家职业资格证书",
+                "subList": null
+              },
+              {
+                "name": "二级运动员资格证",
+                "parentName": "健身教练国家职业资格证书",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "国家运动员",
+            "parentName": "体育健身类",
+            "subList": [
+              {
+                "name": "国际级运动健将",
+                "parentName": "国家运动员",
+                "subList": null
+              },
+              {
+                "name": "国家级运动健将",
+                "parentName": "国家运动员",
+                "subList": null
+              },
+              {
+                "name": "国家一级运动员",
+                "parentName": "国家运动员",
+                "subList": null
+              },
+              {
+                "name": "国家二级运动员",
+                "parentName": "国家运动员",
+                "subList": null
+              },
+              {
+                "name": "国家三级运动员",
+                "parentName": "国家运动员",
+                "subList": null
+              },
+              {
+                "name": "国家少年级运动员",
+                "parentName": "国家运动员",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "社会体育指导员",
+            "parentName": "体育健身类",
+            "subList": [
+              {
+                "name": "一级社会体育指导员",
+                "parentName": "社会体育指导员",
+                "subList": null
+              },
+              {
+                "name": "二级社会体育指导员",
+                "parentName": "社会体育指导员",
+                "subList": null
+              },
+              {
+                "name": "三级社会体育指导员",
+                "parentName": "社会体育指导员",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "NSCA 美国国家体能协会认证",
+            "parentName": "体育健身类",
+            "subList": [
+              {
+                "name": "CPT注册私人教练",
+                "parentName": "NSCA 美国国家体能协会认证",
+                "subList": null
+              },
+              {
+                "name": "CSCS注册体能训练专家",
+                "parentName": "NSCA 美国国家体能协会认证",
+                "subList": null
+              },
+              {
+                "name": "CSPS注册特殊人群训练专家",
+                "parentName": "NSCA 美国国家体能协会认证",
+                "subList": null
+              },
+              {
+                "name": "TSAC-F注册战术体能训练师",
+                "parentName": "NSCA 美国国家体能协会认证",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "ACSM美国运动医学协会认证",
+            "parentName": "体育健身类",
+            "subList": [
+              {
+                "name": "ACSM-CPT注册私人教练",
+                "parentName": "ACSM美国运动医学协会认证",
+                "subList": null
+              },
+              {
+                "name": "ACSM-HFS注册健康健身专家",
+                "parentName": "ACSM美国运动医学协会认证",
+                "subList": null
+              },
+              {
+                "name": "ACSM-CCES注册诊所锻炼专家",
+                "parentName": "ACSM美国运动医学协会认证",
+                "subList": null
+              },
+              {
+                "name": "ACSM-RCEP注册诊所锻炼生理学家",
+                "parentName": "ACSM美国运动医学协会认证",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "NASM美国国家运动医学会认证",
+            "parentName": "体育健身类",
+            "subList": [
+              {
+                "name": "NASM-CPT注册私人教练",
+                "parentName": "NASM美国国家运动医学会认证",
+                "subList": null
+              },
+              {
+                "name": "CES纠正性训练认证",
+                "parentName": "NASM美国国家运动医学会认证",
+                "subList": null
+              },
+              {
+                "name": "PES运动表现训练专家认证",
+                "parentName": "NASM美国国家运动医学会认证",
+                "subList": null
+              },
+              {
+                "name": "CNC 营养教练认证",
+                "parentName": "NASM美国国家运动医学会认证",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "国家裁判员",
+            "parentName": "体育健身类",
+            "subList": [
+              {
+                "name": "国家级裁判员",
+                "parentName": "国家裁判员",
+                "subList": null
+              },
+              {
+                "name": "国家一级裁判员",
+                "parentName": "国家裁判员",
+                "subList": null
+              },
+              {
+                "name": "国家二级裁判员",
+                "parentName": "国家裁判员",
+                "subList": null
+              },
+              {
+                "name": "国家三级裁判员",
+                "parentName": "国家裁判员",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "CBBA中国健美协会专业健身教练证",
+            "parentName": "体育健身类",
+            "subList": []
+          },
+          {
+            "name": "红十字会救护员证",
+            "parentName": "体育健身类",
+            "subList": []
+          },
+          {
+            "name": "IFBB国际私人健身教练证书",
+            "parentName": "体育健身类",
+            "subList": []
+          },
+          {
+            "name": "ACE美国运动协会认证",
+            "parentName": "体育健身类",
+            "subList": [
+              {
+                "name": "CPT私人教练证书",
+                "parentName": "ACE美国运动协会认证",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "AFIA注册私人健身教练证书",
+            "parentName": "体育健身类",
+            "subList": []
+          },
+          {
+            "name": "跆拳道",
+            "parentName": "体育健身类",
+            "subList": [
+              {
+                "name": "跆拳道教练资格证",
+                "parentName": "跆拳道",
+                "subList": null
+              },
+              {
+                "name": "跆拳道二级运动员证",
+                "parentName": "跆拳道",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "篮球/羽毛球",
+            "parentName": "体育健身类",
+            "subList": [
+              {
+                "name": "篮球教练员证",
+                "parentName": "篮球/羽毛球",
+                "subList": null
+              },
+              {
+                "name": "羽毛球教练证",
+                "parentName": "篮球/羽毛球",
+                "subList": null
+              },
+              {
+                "name": "篮球裁判员证",
+                "parentName": "篮球/羽毛球",
+                "subList": null
+              },
+              {
+                "name": "国家篮球二级运动员",
+                "parentName": "篮球/羽毛球",
+                "subList": null
+              },
+              {
+                "name": "国家篮球二级裁判员证",
+                "parentName": "篮球/羽毛球",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "轮滑",
+            "parentName": "体育健身类",
+            "subList": [
+              { "name": "轮滑教练证", "parentName": "轮滑", "subList": null }
+            ]
+          },
+          {
+            "name": "武术",
+            "parentName": "体育健身类",
+            "subList": [
+              {
+                "name": "武术教练员资格证",
+                "parentName": "武术",
+                "subList": null
+              },
+              {
+                "name": "散打教练资格证",
+                "parentName": "武术",
+                "subList": null
+              },
+              {
+                "name": "自由搏击教练资格证",
+                "parentName": "武术",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "瘦身顾问",
+            "parentName": "体育健身类",
+            "subList": [
+              {
+                "name": "ACI注册国际营养师证",
+                "parentName": "瘦身顾问",
+                "subList": null
+              },
+              {
+                "name": "健身教练私人资格证",
+                "parentName": "瘦身顾问",
+                "subList": null
+              },
+              {
+                "name": "健康管理师资格证",
+                "parentName": "瘦身顾问",
+                "subList": null
+              },
+              {
+                "name": "美容师资格证",
+                "parentName": "瘦身顾问",
+                "subList": null
+              },
+              {
+                "name": "中医健康管理师证",
+                "parentName": "瘦身顾问",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "美体教练",
+            "parentName": "体育健身类",
+            "subList": [
+              {
+                "name": "瑜伽教练资格证",
+                "parentName": "美体教练",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "游泳教练",
+            "parentName": "体育健身类",
+            "subList": [
+              {
+                "name": "游泳教练资格证",
+                "parentName": "游泳教练",
+                "subList": null
+              },
+              {
+                "name": "救生员资格证",
+                "parentName": "游泳教练",
+                "subList": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "房地产建筑类",
+        "parentName": "",
+        "subList": [
+          {
+            "name": "工程师职称",
+            "parentName": "房地产建筑类",
+            "subList": [
+              {
+                "name": "助理工程师",
+                "parentName": "工程师职称",
+                "subList": null
+              },
+              {
+                "name": "中级工程师",
+                "parentName": "工程师职称",
+                "subList": null
+              },
+              {
+                "name": "高级工程师",
+                "parentName": "工程师职称",
+                "subList": null
+              },
+              {
+                "name": "特级工程师",
+                "parentName": "工程师职称",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "注册建造师",
+            "parentName": "房地产建筑类",
+            "subList": [
+              {
+                "name": "一级注册建造师",
+                "parentName": "注册建造师",
+                "subList": null
+              },
+              {
+                "name": "二级注册建造师",
+                "parentName": "注册建造师",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "注册造价工程师",
+            "parentName": "房地产建筑类",
+            "subList": [
+              {
+                "name": "一级造价工程师",
+                "parentName": "注册造价工程师",
+                "subList": null
+              },
+              {
+                "name": "二级造价工程师",
+                "parentName": "注册造价工程师",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "建设工程造价员",
+            "parentName": "房地产建筑类",
+            "subList": []
+          },
+          {
+            "name": "安全员证",
+            "parentName": "房地产建筑类",
+            "subList": [
+              {
+                "name": "安全员A本",
+                "parentName": "安全员证",
+                "subList": null
+              },
+              {
+                "name": "安全员B本",
+                "parentName": "安全员证",
+                "subList": null
+              },
+              { "name": "安全员C本", "parentName": "安全员证", "subList": null }
+            ]
+          },
+          {
+            "name": "注册监理工程师",
+            "parentName": "房地产建筑类",
+            "subList": []
+          },
+          {
+            "name": "注册消防工程师",
+            "parentName": "房地产建筑类",
+            "subList": [
+              {
+                "name": "一级注册消防工程师",
+                "parentName": "注册消防工程师",
+                "subList": null
+              },
+              {
+                "name": "二级注册消防工程师",
+                "parentName": "注册消防工程师",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "注册安全工程师",
+            "parentName": "房地产建筑类",
+            "subList": [
+              {
+                "name": "初级注册安全工程师",
+                "parentName": "注册安全工程师",
+                "subList": null
+              },
+              {
+                "name": "中级注册安全工程师",
+                "parentName": "注册安全工程师",
+                "subList": null
+              },
+              {
+                "name": "高级注册安全工程师",
+                "parentName": "注册安全工程师",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "房地产经纪人",
+            "parentName": "房地产建筑类",
+            "subList": [
+              {
+                "name": "房地产经纪人资格证",
+                "parentName": "房地产经纪人",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "注册建筑师",
+            "parentName": "房地产建筑类",
+            "subList": [
+              {
+                "name": "一级注册建筑师",
+                "parentName": "注册建筑师",
+                "subList": null
+              },
+              {
+                "name": "二级注册建筑师",
+                "parentName": "注册建筑师",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "注册结构工程师",
+            "parentName": "房地产建筑类",
+            "subList": [
+              {
+                "name": "一级注册结构工程师",
+                "parentName": "注册结构工程师",
+                "subList": null
+              },
+              {
+                "name": "二级注册结构工程师",
+                "parentName": "注册结构工程师",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "注册电气工程师",
+            "parentName": "房地产建筑类",
+            "subList": []
+          },
+          {
+            "name": "环境影响评价工程师",
+            "parentName": "房地产建筑类",
+            "subList": []
+          },
+          {
+            "name": "注册物业管理师",
+            "parentName": "房地产建筑类",
+            "subList": []
+          },
+          {
+            "name": "注册咨询工程师",
+            "parentName": "房地产建筑类",
+            "subList": []
+          },
+          {
+            "name": "注册土木工程师",
+            "parentName": "房地产建筑类",
+            "subList": [
+              {
+                "name": "注册土木工程师（岩土）",
+                "parentName": "注册土木工程师",
+                "subList": null
+              },
+              {
+                "name": "注册土木工程师（水利水电）",
+                "parentName": "注册土木工程师",
+                "subList": null
+              },
+              {
+                "name": "注册土木工程师（道路）",
+                "parentName": "注册土木工程师",
+                "subList": null
+              },
+              {
+                "name": "注册土木工程师（港口航道）",
+                "parentName": "注册土木工程师",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "注册公用设备工程师",
+            "parentName": "房地产建筑类",
+            "subList": [
+              {
+                "name": "注册公用设备工程师（暖通）",
+                "parentName": "注册公用设备工程师",
+                "subList": null
+              },
+              {
+                "name": "注册公用设备工程师（给水排水）",
+                "parentName": "注册公用设备工程师",
+                "subList": null
+              },
+              {
+                "name": "注册公用设备工程师（动力）",
+                "parentName": "注册公用设备工程师",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "房地产经纪人协理从业资格证",
+            "parentName": "房地产建筑类",
+            "subList": []
+          },
+          {
+            "name": "房地产估价师",
+            "parentName": "房地产建筑类",
+            "subList": []
+          },
+          { "name": "BIM证书", "parentName": "房地产建筑类", "subList": [] },
+          {
+            "name": "物业管理师资格证书",
+            "parentName": "房地产建筑类",
+            "subList": []
+          },
+          { "name": "施工员证", "parentName": "房地产建筑类", "subList": [] },
+          { "name": "资料员证", "parentName": "房地产建筑类", "subList": [] },
+          { "name": "质检员证", "parentName": "房地产建筑类", "subList": [] },
+          { "name": "材料员", "parentName": "房地产建筑类", "subList": [] }
+        ]
+      },
+      {
+        "name": "人力行政类",
+        "parentName": "",
+        "subList": [
+          {
+            "name": "人力资源管理师",
+            "parentName": "人力行政类",
+            "subList": [
+              {
+                "name": "人力资源管理员",
+                "parentName": "人力资源管理师",
+                "subList": null
+              },
+              {
+                "name": "人力资源管理师四级",
+                "parentName": "人力资源管理师",
+                "subList": null
+              },
+              {
+                "name": "人力资源管理师三级",
+                "parentName": "人力资源管理师",
+                "subList": null
+              },
+              {
+                "name": "人力资源管理师二级",
+                "parentName": "人力资源管理师",
+                "subList": null
+              },
+              {
+                "name": "人力资源师一级",
+                "parentName": "人力资源管理师",
+                "subList": null
+              }
+            ]
+          },
+          { "name": "行政管理师", "parentName": "人力行政类", "subList": [] },
+          {
+            "name": "秘书资格证",
+            "parentName": "人力行政类",
+            "subList": [
+              {
+                "name": "秘书五级",
+                "parentName": "秘书资格证",
+                "subList": null
+              },
+              {
+                "name": "秘书四级",
+                "parentName": "秘书资格证",
+                "subList": null
+              },
+              {
+                "name": "秘书三级",
+                "parentName": "秘书资格证",
+                "subList": null
+              },
+              {
+                "name": "秘书二级",
+                "parentName": "秘书资格证",
+                "subList": null
+              },
+              {
+                "name": "秘书（涉外）",
+                "parentName": "秘书资格证",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "社会工作者证书",
+            "parentName": "人力行政类",
+            "subList": [
+              {
+                "name": "助理社会工作师",
+                "parentName": "社会工作者证书",
+                "subList": null
+              },
+              {
+                "name": "社会工作师",
+                "parentName": "社会工作者证书",
+                "subList": null
+              },
+              {
+                "name": "高级社会工作师",
+                "parentName": "社会工作者证书",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "经济师（人力）",
+            "parentName": "人力行政类",
+            "subList": [
+              {
+                "name": "中级经济师（人力）",
+                "parentName": "经济师（人力）",
+                "subList": null
+              },
+              {
+                "name": "高级经济师（人力）",
+                "parentName": "经济师（人力）",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "国际注册人力资源管理师",
+            "parentName": "人力行政类",
+            "subList": [
+              {
+                "name": "国际准注册人力资源管理师",
+                "parentName": "国际注册人力资源管理师",
+                "subList": null
+              },
+              {
+                "name": "国际注册人力资源管理师",
+                "parentName": "国际注册人力资源管理师",
+                "subList": null
+              },
+              {
+                "name": "国际注册高级人力资源管理师",
+                "parentName": "国际注册人力资源管理师",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "GCDF全球职业规划师",
+            "parentName": "人力行政类",
+            "subList": []
+          },
+          {
+            "name": "IPMA-HR美国人力资源管理协会认证",
+            "parentName": "人力行政类",
+            "subList": [
+              {
+                "name": "IPMA-CP国际高级人力资源管理师",
+                "parentName": "IPMA-HR美国人力资源管理协会认证",
+                "subList": null
+              },
+              {
+                "name": "IPMA-CS国际高级人力资源管理专家",
+                "parentName": "IPMA-HR美国人力资源管理协会认证",
+                "subList": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "艺术类",
+        "parentName": "",
+        "subList": [
+          {
+            "name": "ABRSM英皇音乐考级",
+            "parentName": "艺术类",
+            "subList": [
+              {
+                "name": "英皇音乐考级8级",
+                "parentName": "ABRSM英皇音乐考级",
+                "subList": null
+              },
+              {
+                "name": "英皇音乐考级演奏级",
+                "parentName": "ABRSM英皇音乐考级",
+                "subList": null
+              },
+              {
+                "name": "英皇音乐考级教学级",
+                "parentName": "ABRSM英皇音乐考级",
+                "subList": null
+              },
+              {
+                "name": "英皇音乐考级指挥级",
+                "parentName": "ABRSM英皇音乐考级",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "RAD英皇芭蕾舞考级",
+            "parentName": "艺术类",
+            "subList": [
+              {
+                "name": "RAD英皇芭蕾舞专业级",
+                "parentName": "RAD英皇芭蕾舞考级",
+                "subList": null
+              },
+              {
+                "name": "RAD英皇芭蕾舞教师资格",
+                "parentName": "RAD英皇芭蕾舞考级",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "中国舞蹈家协会考级",
+            "parentName": "艺术类",
+            "subList": [
+              {
+                "name": "舞协中国舞10级",
+                "parentName": "中国舞蹈家协会考级",
+                "subList": null
+              },
+              {
+                "name": "舞协注册舞蹈教师",
+                "parentName": "中国舞蹈家协会考级",
+                "subList": null
+              },
+              {
+                "name": "舞协金牌舞蹈教师",
+                "parentName": "中国舞蹈家协会考级",
+                "subList": null
+              },
+              {
+                "name": "舞协特级舞蹈教师",
+                "parentName": "中国舞蹈家协会考级",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "上海音乐协会考级",
+            "parentName": "艺术类",
+            "subList": [
+              {
+                "name": "音协古筝3级",
+                "parentName": "上海音乐协会考级",
+                "subList": null
+              },
+              {
+                "name": "音协声乐9级",
+                "parentName": "上海音乐协会考级",
+                "subList": null
+              },
+              {
+                "name": "音协声乐艺术级",
+                "parentName": "上海音乐协会考级",
+                "subList": null
+              },
+              {
+                "name": "音协钢琴10级",
+                "parentName": "上海音乐协会考级",
+                "subList": null
+              },
+              {
+                "name": "音协钢琴演奏级",
+                "parentName": "上海音乐协会考级",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "上海音乐学院考级",
+            "parentName": "艺术类",
+            "subList": [
+              {
+                "name": "上海音乐学院考级10级",
+                "parentName": "上海音乐学院考级",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "中国歌舞剧院考级",
+            "parentName": "艺术类",
+            "subList": [
+              {
+                "name": "歌舞剧院古典舞14级",
+                "parentName": "中国歌舞剧院考级",
+                "subList": null
+              },
+              {
+                "name": "歌舞剧院民间舞14级",
+                "parentName": "中国歌舞剧院考级",
+                "subList": null
+              },
+              {
+                "name": "歌舞剧院国标舞11级",
+                "parentName": "中国歌舞剧院考级",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "北京舞蹈学院考级",
+            "parentName": "艺术类",
+            "subList": [
+              {
+                "name": "北舞中国舞教师资格证",
+                "parentName": "北京舞蹈学院考级",
+                "subList": null
+              },
+              {
+                "name": "北舞芭蕾舞教师资格证",
+                "parentName": "北京舞蹈学院考级",
+                "subList": null
+              },
+              {
+                "name": "北舞国标舞教师资格证",
+                "parentName": "北京舞蹈学院考级",
+                "subList": null
+              },
+              {
+                "name": "北舞中国舞13级",
+                "parentName": "北京舞蹈学院考级",
+                "subList": null
+              },
+              {
+                "name": "北舞芭蕾舞8级",
+                "parentName": "北京舞蹈学院考级",
+                "subList": null
+              },
+              {
+                "name": "北舞国标舞10级",
+                "parentName": "北京舞蹈学院考级",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "中国音乐学院考级",
+            "parentName": "艺术类",
+            "subList": [
+              {
+                "name": "中国音乐学院考级",
+                "parentName": "中国音乐学院考级",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "中央音乐学院考级",
+            "parentName": "艺术类",
+            "subList": [
+              {
+                "name": "中央音乐学院考级",
+                "parentName": "中央音乐学院考级",
+                "subList": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "营养师类",
+        "parentName": "",
+        "subList": [
+          {
+            "name": "卫健委健康管理师",
+            "parentName": "营养师类",
+            "subList": [
+              {
+                "name": "健康管理师一级",
+                "parentName": "卫健委健康管理师",
+                "subList": null
+              },
+              {
+                "name": "健康管理师二级",
+                "parentName": "卫健委健康管理师",
+                "subList": null
+              },
+              {
+                "name": "健康管理师三级",
+                "parentName": "卫健委健康管理师",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "营养师职业资格证",
+            "parentName": "营养师类",
+            "subList": [
+              {
+                "name": "初级营养师",
+                "parentName": "营养师职业资格证",
+                "subList": null
+              },
+              {
+                "name": "中级营养师",
+                "parentName": "营养师职业资格证",
+                "subList": null
+              },
+              {
+                "name": "高级营养师",
+                "parentName": "营养师职业资格证",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "国家注册营养师",
+            "parentName": "营养师类",
+            "subList": [
+              {
+                "name": "国家注册营养师",
+                "parentName": "国家注册营养师",
+                "subList": null
+              },
+              {
+                "name": "国家注册营养技师",
+                "parentName": "国家注册营养师",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "ACI国际注册营养师",
+            "parentName": "营养师类",
+            "subList": []
+          }
+        ]
+      },
+      {
+        "name": "驾驶类",
+        "parentName": "",
+        "subList": [
+          {
+            "name": "AOPA无人机执照",
+            "parentName": "驾驶类",
+            "subList": [
+              {
+                "name": "AOPA无人机驾驶员执照",
+                "parentName": "AOPA无人机执照",
+                "subList": null
+              },
+              {
+                "name": "AOPA无人机机长执照",
+                "parentName": "AOPA无人机执照",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "机动车驾驶证",
+            "parentName": "驾驶类",
+            "subList": [
+              {
+                "name": "驾驶证A1",
+                "parentName": "机动车驾驶证",
+                "subList": null
+              },
+              {
+                "name": "驾驶证A2",
+                "parentName": "机动车驾驶证",
+                "subList": null
+              },
+              {
+                "name": "驾驶证A3",
+                "parentName": "机动车驾驶证",
+                "subList": null
+              },
+              {
+                "name": "驾驶证B1",
+                "parentName": "机动车驾驶证",
+                "subList": null
+              },
+              {
+                "name": "驾驶证B2",
+                "parentName": "机动车驾驶证",
+                "subList": null
+              },
+              {
+                "name": "驾驶证C1",
+                "parentName": "机动车驾驶证",
+                "subList": null
+              },
+              {
+                "name": "驾驶证C2",
+                "parentName": "机动车驾驶证",
+                "subList": null
+              },
+              {
+                "name": "驾驶证D",
+                "parentName": "机动车驾驶证",
+                "subList": null
+              },
+              {
+                "name": "驾驶证E",
+                "parentName": "机动车驾驶证",
+                "subList": null
+              },
+              {
+                "name": "驾驶证F",
+                "parentName": "机动车驾驶证",
+                "subList": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "技工类",
+        "parentName": "",
+        "subList": [
+          { "name": "健康证", "parentName": "技工类", "subList": [] },
+          {
+            "name": "电工职业资格证",
+            "parentName": "技工类",
+            "subList": [
+              {
+                "name": "电工五级",
+                "parentName": "电工职业资格证",
+                "subList": null
+              },
+              {
+                "name": "电工四级",
+                "parentName": "电工职业资格证",
+                "subList": null
+              },
+              {
+                "name": "电工三级",
+                "parentName": "电工职业资格证",
+                "subList": null
+              },
+              {
+                "name": "电工二级",
+                "parentName": "电工职业资格证",
+                "subList": null
+              },
+              {
+                "name": "电工一级",
+                "parentName": "电工职业资格证",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "电工特种作业操作证",
+            "parentName": "技工类",
+            "subList": []
+          },
+          {
+            "name": "电工进网作业许可证",
+            "parentName": "技工类",
+            "subList": []
+          },
+          {
+            "name": "钳工",
+            "parentName": "技工类",
+            "subList": [
+              {
+                "name": "钳工职业资格证",
+                "parentName": "钳工",
+                "subList": null
+              },
+              {
+                "name": "初级钳工职业资格证",
+                "parentName": "钳工",
+                "subList": null
+              },
+              {
+                "name": "钳工中级职业资格证",
+                "parentName": "钳工",
+                "subList": null
+              },
+              {
+                "name": "高级钳工职业资格证",
+                "parentName": "钳工",
+                "subList": null
+              },
+              {
+                "name": "钳工技师职业资格证",
+                "parentName": "钳工",
+                "subList": null
+              },
+              {
+                "name": "钳工高级技师职业资格证",
+                "parentName": "钳工",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "特种设备作业人员证",
+            "parentName": "技工类",
+            "subList": []
+          },
+          {
+            "name": "建筑施工特种操作资格证",
+            "parentName": "技工类",
+            "subList": []
+          },
+          {
+            "name": "焊工",
+            "parentName": "技工类",
+            "subList": [
+              {
+                "name": "焊工职业资格证",
+                "parentName": "焊工",
+                "subList": null
+              },
+              {
+                "name": "特种设备作业焊工证",
+                "parentName": "焊工",
+                "subList": null
+              },
+              {
+                "name": "初级焊工职业资格证",
+                "parentName": "焊工",
+                "subList": null
+              },
+              {
+                "name": "中级焊工职业资格证",
+                "parentName": "焊工",
+                "subList": null
+              },
+              {
+                "name": "高级焊工职业资格证",
+                "parentName": "焊工",
+                "subList": null
+              },
+              {
+                "name": "焊工技师职业资格证",
+                "parentName": "焊工",
+                "subList": null
+              },
+              {
+                "name": "焊工高级技师职业资格证",
+                "parentName": "焊工",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "数控车工职业资格",
+            "parentName": "技工类",
+            "subList": [
+              {
+                "name": "数控车工五级",
+                "parentName": "数控车工职业资格",
+                "subList": null
+              },
+              {
+                "name": "数控车工四级",
+                "parentName": "数控车工职业资格",
+                "subList": null
+              },
+              {
+                "name": "数控车工三级",
+                "parentName": "数控车工职业资格",
+                "subList": null
+              },
+              {
+                "name": "数控车工二级",
+                "parentName": "数控车工职业资格",
+                "subList": null
+              },
+              {
+                "name": "数控车工一级",
+                "parentName": "数控车工职业资格",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "样衣工",
+            "parentName": "技工类",
+            "subList": [
+              {
+                "name": "服装制作工职业资格证",
+                "parentName": "样衣工",
+                "subList": null
+              },
+              {
+                "name": "初级服装制作工职业资格证",
+                "parentName": "样衣工",
+                "subList": null
+              },
+              {
+                "name": "中级服装制作工职业资格证",
+                "parentName": "样衣工",
+                "subList": null
+              },
+              {
+                "name": "高级服装制作工职业资格证",
+                "parentName": "样衣工",
+                "subList": null
+              },
+              {
+                "name": "服装制作工技师职业资格证",
+                "parentName": "样衣工",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "模具工",
+            "parentName": "技工类",
+            "subList": [
+              {
+                "name": "模具工职业资格证",
+                "parentName": "模具工",
+                "subList": null
+              },
+              {
+                "name": "中级模具工职业资格证",
+                "parentName": "模具工",
+                "subList": null
+              },
+              {
+                "name": "高级模具工职业资格证",
+                "parentName": "模具工",
+                "subList": null
+              },
+              {
+                "name": "模具工技师职业资格证",
+                "parentName": "模具工",
+                "subList": null
+              },
+              {
+                "name": "模具工高级技师职业资格证",
+                "parentName": "模具工",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "木工证",
+            "parentName": "技工类",
+            "subList": [
+              {
+                "name": "手工木工职业资格证",
+                "parentName": "木工证",
+                "subList": null
+              },
+              {
+                "name": "初级手工木工职业资格证",
+                "parentName": "木工证",
+                "subList": null
+              },
+              {
+                "name": "中级手工木工职业资格证",
+                "parentName": "木工证",
+                "subList": null
+              },
+              {
+                "name": "高级手工木工职业资格证",
+                "parentName": "木工证",
+                "subList": null
+              },
+              {
+                "name": "手工木工技师职业资格证",
+                "parentName": "木工证",
+                "subList": null
+              },
+              {
+                "name": "手工木工高级技师职业资格证",
+                "parentName": "木工证",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "车工",
+            "parentName": "技工类",
+            "subList": [
+              {
+                "name": "车工职业资格证",
+                "parentName": "车工",
+                "subList": null
+              },
+              {
+                "name": "初级车工职业资格证",
+                "parentName": "车工",
+                "subList": null
+              },
+              {
+                "name": "中级车工职业资格证",
+                "parentName": "车工",
+                "subList": null
+              },
+              {
+                "name": "高级车工职业资格证",
+                "parentName": "车工",
+                "subList": null
+              },
+              {
+                "name": "车工技师职业资格证",
+                "parentName": "车工",
+                "subList": null
+              },
+              {
+                "name": "车工高级技师职业资格证",
+                "parentName": "车工",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "铣工",
+            "parentName": "技工类",
+            "subList": [
+              {
+                "name": "铣工职业资格证",
+                "parentName": "铣工",
+                "subList": null
+              },
+              {
+                "name": "初级铣工职业资格证",
+                "parentName": "铣工",
+                "subList": null
+              },
+              {
+                "name": "中级铣工职业资格证",
+                "parentName": "铣工",
+                "subList": null
+              },
+              {
+                "name": "高级铣工职业资格证",
+                "parentName": "铣工",
+                "subList": null
+              },
+              {
+                "name": "铣工技师职业资格证",
+                "parentName": "铣工",
+                "subList": null
+              },
+              {
+                "name": "铣工高级技师职业资格证",
+                "parentName": "铣工",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "钣金",
+            "parentName": "技工类",
+            "subList": [
+              {
+                "name": "钣金工职业资格证",
+                "parentName": "钣金",
+                "subList": null
+              },
+              {
+                "name": "初级钣金工职业资格证",
+                "parentName": "钣金",
+                "subList": null
+              },
+              {
+                "name": "中级钣金工职业资格证",
+                "parentName": "钣金",
+                "subList": null
+              },
+              {
+                "name": "高级钣金工职业资格证",
+                "parentName": "钣金",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "空调工",
+            "parentName": "技工类",
+            "subList": [
+              { "name": "高空作业证", "parentName": "空调工", "subList": null },
+              {
+                "name": "制冷工特种作业操作证",
+                "parentName": "空调工",
+                "subList": null
+              },
+              {
+                "name": "压力容器操作证",
+                "parentName": "空调工",
+                "subList": null
+              },
+              {
+                "name": "初级制冷工职业资格证",
+                "parentName": "空调工",
+                "subList": null
+              },
+              {
+                "name": "中级制冷工职业资格证",
+                "parentName": "空调工",
+                "subList": null
+              },
+              {
+                "name": "高级制冷工职业资格证",
+                "parentName": "空调工",
+                "subList": null
+              },
+              {
+                "name": "制冷工技师职业资格证",
+                "parentName": "空调工",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "化学分析",
+            "parentName": "技工类",
+            "subList": [
+              {
+                "name": "化学分析工程师证",
+                "parentName": "化学分析",
+                "subList": null
+              },
+              {
+                "name": "高级化学分析工程师证",
+                "parentName": "化学分析",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "实验室技术员",
+            "parentName": "技工类",
+            "subList": [
+              {
+                "name": "检验员资格证",
+                "parentName": "实验室技术员",
+                "subList": null
+              },
+              {
+                "name": "试验员证",
+                "parentName": "实验室技术员",
+                "subList": null
+              }
+            ]
+          },
+          { "name": "消防中控员证书", "parentName": "技工类", "subList": [] },
+          {
+            "name": "月嫂证",
+            "parentName": "技工类",
+            "subList": [
+              {
+                "name": "育婴师职业资格证",
+                "parentName": "月嫂证",
+                "subList": null
+              },
+              {
+                "name": "母婴护理师职业资格证",
+                "parentName": "月嫂证",
+                "subList": null
+              },
+              {
+                "name": "育婴员职业资格证",
+                "parentName": "月嫂证",
+                "subList": null
+              },
+              {
+                "name": "高级育婴师职业资格证",
+                "parentName": "月嫂证",
+                "subList": null
+              },
+              {
+                "name": "催乳师职业资格证",
+                "parentName": "月嫂证",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "硬件维修工程师职业资格证",
+            "parentName": "技工类",
+            "subList": [
+              {
+                "name": "硬件维修工程师职业资格证",
+                "parentName": "硬件维修工程师职业资格证",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "产后康复师证",
+            "parentName": "技工类",
+            "subList": [
+              {
+                "name": "产后康复师职业资格证",
+                "parentName": "产后康复师证",
+                "subList": null
+              },
+              {
+                "name": "理疗师职业资格证",
+                "parentName": "产后康复师证",
+                "subList": null
+              },
+              {
+                "name": "营养师资格证",
+                "parentName": "产后康复师证",
+                "subList": null
+              },
+              {
+                "name": "健康管理师职业资格证",
+                "parentName": "产后康复师证",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "纹绣师证",
+            "parentName": "技工类",
+            "subList": [
+              {
+                "name": "纹绣师职业资格证",
+                "parentName": "纹绣师证",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "美容师证",
+            "parentName": "技工类",
+            "subList": [
+              {
+                "name": "美容师职业资格证",
+                "parentName": "美容师证",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "保健按摩",
+            "parentName": "技工类",
+            "subList": [
+              {
+                "name": "保健按摩师职业资格证",
+                "parentName": "保健按摩",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "化妆师证",
+            "parentName": "技工类",
+            "subList": [
+              {
+                "name": "化妆师职业资格证",
+                "parentName": "化妆师证",
+                "subList": null
+              },
+              {
+                "name": "初级化妆师职业资格证",
+                "parentName": "化妆师证",
+                "subList": null
+              },
+              {
+                "name": "中级化妆师职业资格证",
+                "parentName": "化妆师证",
+                "subList": null
+              },
+              {
+                "name": "高级化妆师职业资格证",
+                "parentName": "化妆师证",
+                "subList": null
+              },
+              {
+                "name": "化妆技师职业资格证",
+                "parentName": "化妆师证",
+                "subList": null
+              },
+              {
+                "name": "高级化妆技师职业资格证",
+                "parentName": "化妆师证",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "理疗师证",
+            "parentName": "技工类",
+            "subList": [
+              {
+                "name": "健康管理师证",
+                "parentName": "理疗师证",
+                "subList": null
+              },
+              {
+                "name": "康复理疗师证",
+                "parentName": "理疗师证",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "给排水",
+            "parentName": "技工类",
+            "subList": [
+              {
+                "name": "二级建造师执业资格证",
+                "parentName": "给排水",
+                "subList": null
+              },
+              {
+                "name": "一级建造师执业资格证",
+                "parentName": "给排水",
+                "subList": null
+              },
+              {
+                "name": "工程测量员证",
+                "parentName": "给排水",
+                "subList": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "生产制造类",
+        "parentName": "",
+        "subList": [
+          {
+            "name": "CNC/数控",
+            "parentName": "生产制造类",
+            "subList": [
+              {
+                "name": "数控职业技能证",
+                "parentName": "CNC/数控",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "质量安全",
+            "parentName": "生产制造类",
+            "subList": [
+              {
+                "name": "国家注册质量工程师证",
+                "parentName": "质量安全",
+                "subList": null
+              },
+              {
+                "name": "CCAA注册审核员证",
+                "parentName": "质量安全",
+                "subList": null
+              },
+              {
+                "name": "质量管理体系工程师证",
+                "parentName": "质量安全",
+                "subList": null
+              },
+              {
+                "name": "质检员执业资格证",
+                "parentName": "质量安全",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "机电工程师",
+            "parentName": "生产制造类",
+            "subList": [
+              {
+                "name": "助理机电工程师证",
+                "parentName": "机电工程师",
+                "subList": null
+              },
+              {
+                "name": "中级机电工程师证",
+                "parentName": "机电工程师",
+                "subList": null
+              },
+              {
+                "name": "高级机电工程师证",
+                "parentName": "机电工程师",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "精益工程师",
+            "parentName": "生产制造类",
+            "subList": [
+              {
+                "name": "六西格玛绿带证",
+                "parentName": "精益工程师",
+                "subList": null
+              },
+              {
+                "name": "六西格玛黑带证",
+                "parentName": "精益工程师",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "动力系统工程师",
+            "parentName": "生产制造类",
+            "subList": [
+              {
+                "name": "注册动力工程师资格证",
+                "parentName": "动力系统工程师",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "服装打版师",
+            "parentName": "生产制造类",
+            "subList": [
+              { "name": "初级", "parentName": "服装打版师", "subList": null },
+              { "name": "中级", "parentName": "服装打版师", "subList": null },
+              { "name": "高级", "parentName": "服装打版师", "subList": null },
+              { "name": "技师", "parentName": "服装打版师", "subList": null }
+            ]
+          },
+          {
+            "name": "物流师职业资格证书",
+            "parentName": "生产制造类",
+            "subList": [
+              {
+                "name": "助理物流师",
+                "parentName": "物流师职业资格证书",
+                "subList": null
+              },
+              {
+                "name": "物流师",
+                "parentName": "物流师职业资格证书",
+                "subList": null
+              },
+              {
+                "name": "高级物流师",
+                "parentName": "物流师职业资格证书",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "机械设计/制造",
+            "parentName": "生产制造类",
+            "subList": [
+              {
+                "name": "模具制造工职业资格证",
+                "parentName": "机械设计/制造",
+                "subList": null
+              },
+              {
+                "name": "机械工程师资格证",
+                "parentName": "机械设计/制造",
+                "subList": null
+              },
+              {
+                "name": "助理机械工程师资格证",
+                "parentName": "机械设计/制造",
+                "subList": null
+              },
+              {
+                "name": "高级机械工程师资格证",
+                "parentName": "机械设计/制造",
+                "subList": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "市场类",
+        "parentName": "",
+        "subList": [
+          { "name": "营销师资格证", "parentName": "市场类", "subList": [] }
+        ]
+      },
+      {
+        "name": "旅游类",
+        "parentName": "",
+        "subList": [
+          {
+            "name": "导游员资格证",
+            "parentName": "旅游类",
+            "subList": [
+              {
+                "name": "导游员资格证",
+                "parentName": "导游员资格证",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "导游证",
+            "parentName": "旅游类",
+            "subList": [
+              { "name": "导游证", "parentName": "导游证", "subList": null }
+            ]
+          },
+          { "name": "外语导游证", "parentName": "旅游类", "subList": [] },
+          { "name": "海外领队证", "parentName": "旅游类", "subList": [] },
+          {
+            "name": "旅游计调师证",
+            "parentName": "旅游类",
+            "subList": [
+              {
+                "name": "旅游计调师证",
+                "parentName": "旅游计调师证",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "国际饭店业高级职业经理人资格证书",
+            "parentName": "旅游类",
+            "subList": [
+              {
+                "name": "国际饭店业高级职业经理人资格证书",
+                "parentName": "国际饭店业高级职业经理人资格证书",
+                "subList": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "传媒类",
+        "parentName": "",
+        "subList": [
+          {
+            "name": "演出经纪人资格证",
+            "parentName": "传媒类",
+            "subList": [
+              {
+                "name": "演出经纪人资格证",
+                "parentName": "演出经纪人资格证",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "新闻从业资格证",
+            "parentName": "传媒类",
+            "subList": [
+              {
+                "name": "新闻从业资格证",
+                "parentName": "新闻从业资格证",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "记者资格证书",
+            "parentName": "传媒类",
+            "subList": [
+              {
+                "name": "记者资格证书",
+                "parentName": "记者资格证书",
+                "subList": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "农/林/牧/渔类",
+        "parentName": "",
+        "subList": [
+          {
+            "name": "农艺师",
+            "parentName": "农/林/牧/渔类",
+            "subList": [
+              { "name": "农艺师证书", "parentName": "农艺师", "subList": null },
+              {
+                "name": "高级农艺师证书",
+                "parentName": "农艺师",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "园艺师证书",
+            "parentName": "农/林/牧/渔类",
+            "subList": []
+          },
+          {
+            "name": "农资营销师证书",
+            "parentName": "农/林/牧/渔类",
+            "subList": []
+          },
+          {
+            "name": "园林绿化工程师证书",
+            "parentName": "农/林/牧/渔类",
+            "subList": []
+          },
+          {
+            "name": "农业职业经理人证书",
+            "parentName": "农/林/牧/渔类",
+            "subList": []
+          },
+          {
+            "name": "农业技术指导师证书",
+            "parentName": "农/林/牧/渔类",
+            "subList": []
+          },
+          {
+            "name": "食品质量管理师证书",
+            "parentName": "农/林/牧/渔类",
+            "subList": []
+          },
+          {
+            "name": "农林规划师证书",
+            "parentName": "农/林/牧/渔类",
+            "subList": []
+          },
+          {
+            "name": "执业兽医师资格证",
+            "parentName": "农/林/牧/渔类",
+            "subList": []
+          },
+          {
+            "name": "执业助理兽医师资格证",
+            "parentName": "农/林/牧/渔类",
+            "subList": []
+          },
+          {
+            "name": "花艺师证书",
+            "parentName": "农/林/牧/渔类",
+            "subList": []
+          },
+          {
+            "name": "林业有害生物防治员证书",
+            "parentName": "农/林/牧/渔类",
+            "subList": []
+          },
+          {
+            "name": "农作物植保员证书",
+            "parentName": "农/林/牧/渔类",
+            "subList": []
+          },
+          {
+            "name": "森林消防员证书",
+            "parentName": "农/林/牧/渔类",
+            "subList": []
+          },
+          {
+            "name": "远洋渔业资质证书",
+            "parentName": "农/林/牧/渔类",
+            "subList": []
+          }
+        ]
+      },
+      {
+        "name": "环保类",
+        "parentName": "",
+        "subList": [
+          { "name": "环评工程师证书", "parentName": "环保类", "subList": [] },
+          { "name": "环保工程师证书", "parentName": "环保类", "subList": [] }
+        ]
+      },
+      {
+        "name": "特殊类",
+        "parentName": "",
+        "subList": [
+          {
+            "name": "经营师",
+            "parentName": "特殊类",
+            "subList": [
+              { "name": "助理经营师", "parentName": "经营师", "subList": null },
+              { "name": "经营师", "parentName": "经营师", "subList": null },
+              { "name": "高级经营师", "parentName": "经营师", "subList": null }
+            ]
+          },
+          {
+            "name": "厨师证",
+            "parentName": "特殊类",
+            "subList": [
+              { "name": "初级厨师证", "parentName": "厨师证", "subList": null },
+              { "name": "中级厨师证", "parentName": "厨师证", "subList": null },
+              { "name": "高级厨师证", "parentName": "厨师证", "subList": null },
+              { "name": "技师厨师证", "parentName": "厨师证", "subList": null },
+              {
+                "name": "高级技师厨师证",
+                "parentName": "厨师证",
+                "subList": null
+              }
+            ]
+          },
+          { "name": "退伍证", "parentName": "特殊类", "subList": [] },
+          {
+            "name": "保安证",
+            "parentName": "特殊类",
+            "subList": [
+              {
+                "name": "保安员职业资格证",
+                "parentName": "保安证",
+                "subList": null
+              },
+              {
+                "name": "高级保安员职业资格证",
+                "parentName": "保安证",
+                "subList": null
+              },
+              {
+                "name": "保安师职业资格证",
+                "parentName": "保安证",
+                "subList": null
+              },
+              {
+                "name": "高级保安师职业资格证",
+                "parentName": "保安证",
+                "subList": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "交通运输类",
+        "parentName": "",
+        "subList": [
+          {
+            "name": "道路运输从业资格证",
+            "parentName": "交通运输类",
+            "subList": [
+              {
+                "name": "经营性道路客货运输",
+                "parentName": "道路运输从业资格证",
+                "subList": null
+              },
+              {
+                "name": "道路危险货物运输",
+                "parentName": "道路运输从业资格证",
+                "subList": null
+              },
+              {
+                "name": "危险货物运输装卸管理和押运",
+                "parentName": "道路运输从业资格证",
+                "subList": null
+              },
+              {
+                "name": "机动车维修技术人员",
+                "parentName": "道路运输从业资格证",
+                "subList": null
+              },
+              {
+                "name": "机动车驾驶培训教练员",
+                "parentName": "道路运输从业资格证",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "机动车检测维修专业技术人员职业水平证",
+            "parentName": "交通运输类",
+            "subList": [
+              {
+                "name": "机动车检测维修士",
+                "parentName": "机动车检测维修专业技术人员职业水平证",
+                "subList": null
+              },
+              {
+                "name": "机动车检测维修工程师",
+                "parentName": "机动车检测维修专业技术人员职业水平证",
+                "subList": null
+              }
+            ]
+          },
+          {
+            "name": "机动车驾驶培训教练员证",
+            "parentName": "交通运输类",
+            "subList": [
+              {
+                "name": "理论教练员证",
+                "parentName": "机动车驾驶培训教练员证",
+                "subList": null
+              },
+              {
+                "name": "驾驶操作教练员证",
+                "parentName": "机动车驾驶培训教练员证",
+                "subList": null
+              },
+              {
+                "name": "客货运输教练员证",
+                "parentName": "机动车驾驶培训教练员证",
+                "subList": null
+              },
+              {
+                "name": "危险货物运输教练员证",
+                "parentName": "机动车驾驶培训教练员证",
+                "subList": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "recommendCert": [
+      { "name": "大学英语四级", "parentName": "英语类", "subList": [] },
+      {
+        "name": "CMA美国注册管理会计师",
+        "parentName": "会计类",
+        "subList": []
+      },
+      { "name": "施工员证", "parentName": "房地产建筑类", "subList": [] },
+      {
+        "name": "计算机等级考试",
+        "parentName": "IT类",
+        "subList": [
+          {
+            "name": "计算机一级",
+            "parentName": "计算机等级考试",
+            "subList": null
+          },
+          {
+            "name": "计算机二级",
+            "parentName": "计算机等级考试",
+            "subList": null
+          },
+          {
+            "name": "计算机三级",
+            "parentName": "计算机等级考试",
+            "subList": null
+          },
+          {
+            "name": "计算机四级",
+            "parentName": "计算机等级考试",
+            "subList": null
+          }
+        ]
+      },
+      { "name": "大学英语六级", "parentName": "英语类", "subList": [] },
+      {
+        "name": "机动车驾驶证",
+        "parentName": "驾驶类",
+        "subList": [
+          { "name": "驾驶证A1", "parentName": "机动车驾驶证", "subList": null },
+          { "name": "驾驶证A2", "parentName": "机动车驾驶证", "subList": null },
+          { "name": "驾驶证A3", "parentName": "机动车驾驶证", "subList": null },
+          { "name": "驾驶证B1", "parentName": "机动车驾驶证", "subList": null },
+          { "name": "驾驶证B2", "parentName": "机动车驾驶证", "subList": null },
+          { "name": "驾驶证C1", "parentName": "机动车驾驶证", "subList": null },
+          { "name": "驾驶证C2", "parentName": "机动车驾驶证", "subList": null },
+          { "name": "驾驶证D", "parentName": "机动车驾驶证", "subList": null },
+          { "name": "驾驶证E", "parentName": "机动车驾驶证", "subList": null },
+          { "name": "驾驶证F", "parentName": "机动车驾驶证", "subList": null }
+        ]
+      },
+      {
+        "name": "普通话水平测试",
+        "parentName": "汉语类",
+        "subList": [
+          {
+            "name": "普通话一级甲等",
+            "parentName": "普通话水平测试",
+            "subList": null
+          },
+          {
+            "name": "普通话一级乙等",
+            "parentName": "普通话水平测试",
+            "subList": null
+          },
+          {
+            "name": "普通话二级甲等",
+            "parentName": "普通话水平测试",
+            "subList": null
+          },
+          {
+            "name": "普通话二级乙等",
+            "parentName": "普通话水平测试",
+            "subList": null
+          },
+          {
+            "name": "普通话三级甲等",
+            "parentName": "普通话水平测试",
+            "subList": null
+          },
+          {
+            "name": "普通话三级乙等",
+            "parentName": "普通话水平测试",
+            "subList": null
+          }
+        ]
+      },
+      {
+        "name": "NIT全国计算机应用水平证书",
+        "parentName": "IT类",
+        "subList": []
+      },
+      { "name": "PMP项目管理认证", "parentName": "项目管理类", "subList": [] },
+      {
+        "name": "计算机中级专业技术资格",
+        "parentName": "IT类",
+        "subList": [
+          {
+            "name": "软件评测师",
+            "parentName": "计算机中级专业技术资格",
+            "subList": null
+          },
+          {
+            "name": "软件设计师",
+            "parentName": "计算机中级专业技术资格",
+            "subList": null
+          },
+          {
+            "name": "软件过程能力评估师",
+            "parentName": "计算机中级专业技术资格",
+            "subList": null
+          },
+          {
+            "name": "网络工程师",
+            "parentName": "计算机中级专业技术资格",
+            "subList": null
+          },
+          {
+            "name": "系统集成项目管理工程师",
+            "parentName": "计算机中级专业技术资格",
+            "subList": null
+          },
+          {
+            "name": "信息系统监理师",
+            "parentName": "计算机中级专业技术资格",
+            "subList": null
+          },
+          {
+            "name": "数据库系统工程师",
+            "parentName": "计算机中级专业技术资格",
+            "subList": null
+          },
+          {
+            "name": "信息系统管理工程师",
+            "parentName": "计算机中级专业技术资格",
+            "subList": null
+          },
+          {
+            "name": "信息安全工程师",
+            "parentName": "计算机中级专业技术资格",
+            "subList": null
+          },
+          {
+            "name": "计算机硬件工程师",
+            "parentName": "计算机中级专业技术资格",
+            "subList": null
+          },
+          {
+            "name": "信息技术支持工程师",
+            "parentName": "计算机中级专业技术资格",
+            "subList": null
+          }
+        ]
+      },
+      {
+        "name": "计算机初级专业技术资格",
+        "parentName": "IT类",
+        "subList": [
+          {
+            "name": "程序员技术资格",
+            "parentName": "计算机初级专业技术资格",
+            "subList": null
+          },
+          {
+            "name": "网络管理员",
+            "parentName": "计算机初级专业技术资格",
+            "subList": null
+          },
+          {
+            "name": "信息系统运行管理员",
+            "parentName": "计算机初级专业技术资格",
+            "subList": null
+          },
+          {
+            "name": "网页制作员",
+            "parentName": "计算机初级专业技术资格",
+            "subList": null
+          },
+          {
+            "name": "信息处理技术员",
+            "parentName": "计算机初级专业技术资格",
+            "subList": null
+          }
+        ]
+      },
+      { "name": "英语专业四级", "parentName": "英语类", "subList": [] },
+      { "name": "会计从业资格证", "parentName": "会计类", "subList": [] },
+      {
+        "name": "教师资格证",
+        "parentName": "教育类",
+        "subList": [
+          {
+            "name": "教师资格证（幼儿园）",
+            "parentName": "教师资格证",
+            "subList": null
+          },
+          {
+            "name": "教师资格证（小学）",
+            "parentName": "教师资格证",
+            "subList": null
+          },
+          {
+            "name": "教师资格证（初中）",
+            "parentName": "教师资格证",
+            "subList": null
+          },
+          {
+            "name": "教师资格证（高中）",
+            "parentName": "教师资格证",
+            "subList": null
+          },
+          {
+            "name": "教师资格证（大学）",
+            "parentName": "教师资格证",
+            "subList": null
+          }
+        ]
+      },
+      {
+        "name": "Cisco思科认证",
+        "parentName": "IT类",
+        "subList": [
+          {
+            "name": "CCNA思科认证网络工程师",
+            "parentName": "Cisco思科认证",
+            "subList": null
+          },
+          {
+            "name": "CCNP思科认证网络高级工程师",
+            "parentName": "Cisco思科认证",
+            "subList": null
+          },
+          {
+            "name": "CCIE思科认证互联网专家",
+            "parentName": "Cisco思科认证",
+            "subList": null
+          }
+        ]
+      },
+      {
+        "name": "高等学校英语应用能力考试",
+        "parentName": "英语类",
+        "subList": [
+          {
+            "name": "高等学校英语应用能力A级",
+            "parentName": "高等学校英语应用能力考试",
+            "subList": null
+          },
+          {
+            "name": "高等学校英语应用能力B级",
+            "parentName": "高等学校英语应用能力考试",
+            "subList": null
+          }
+        ]
+      },
+      {
+        "name": "NCIE全国信息化工程师项目证书",
+        "parentName": "IT类",
+        "subList": []
+      },
+      {
+        "name": "日语等级考试",
+        "parentName": "外语类",
+        "subList": [
+          { "name": "日语N1", "parentName": "日语等级考试", "subList": null },
+          { "name": "日语N2", "parentName": "日语等级考试", "subList": null },
+          { "name": "日语N3", "parentName": "日语等级考试", "subList": null },
+          { "name": "日语N4", "parentName": "日语等级考试", "subList": null },
+          { "name": "日语N5", "parentName": "日语等级考试", "subList": null }
+        ]
+      },
+      { "name": "健康证", "parentName": "技工类", "subList": [] },
+      { "name": "证券从业资格证", "parentName": "金融类", "subList": [] },
+      {
+        "name": "华为认证",
+        "parentName": "IT类",
+        "subList": [
+          {
+            "name": "HCIA华为认证ICT工程师",
+            "parentName": "华为认证",
+            "subList": null
+          },
+          {
+            "name": "HCIP华为认证ICT高级工程师",
+            "parentName": "华为认证",
+            "subList": null
+          },
+          {
+            "name": "HCIE华为认证ICT专家",
+            "parentName": "华为认证",
+            "subList": null
+          }
+        ]
+      },
+      {
+        "name": "会计职称",
+        "parentName": "会计类",
+        "subList": [
+          { "name": "会计初级职称", "parentName": "会计职称", "subList": null },
+          { "name": "会计中级职称", "parentName": "会计职称", "subList": null },
+          { "name": "会计高级职称", "parentName": "会计职称", "subList": null }
+        ]
+      },
+      {
+        "name": "计算机高级专业技术资格",
+        "parentName": "IT类",
+        "subList": [
+          {
+            "name": "信息系统项目管理师",
+            "parentName": "计算机高级专业技术资格",
+            "subList": null
+          },
+          {
+            "name": "网络规划设计师",
+            "parentName": "计算机高级专业技术资格",
+            "subList": null
+          },
+          {
+            "name": "系统架构设计师",
+            "parentName": "计算机高级专业技术资格",
+            "subList": null
+          },
+          {
+            "name": "系统分析师",
+            "parentName": "计算机高级专业技术资格",
+            "subList": null
+          },
+          {
+            "name": "系统规划与管理师",
+            "parentName": "计算机高级专业技术资格",
+            "subList": null
+          }
+        ]
+      },
+      {
+        "name": "阿里云认证",
+        "parentName": "IT类",
+        "subList": [
+          {
+            "name": "ACA阿里云助理工程师认证",
+            "parentName": "阿里云认证",
+            "subList": null
+          },
+          {
+            "name": "ACP阿里云专业工程师认证",
+            "parentName": "阿里云认证",
+            "subList": null
+          },
+          {
+            "name": "ACE阿里云高级工程师认证",
+            "parentName": "阿里云认证",
+            "subList": null
+          }
+        ]
+      },
+      {
+        "name": "ACAA认证",
+        "parentName": "IT类",
+        "subList": [
+          {
+            "name": "ACAA高级数字艺术设计师",
+            "parentName": "ACAA认证",
+            "subList": null
+          },
+          {
+            "name": "ACAA认证平面设计师",
+            "parentName": "ACAA认证",
+            "subList": null
+          },
+          {
+            "name": "ACAA认证电子出版师",
+            "parentName": "ACAA认证",
+            "subList": null
+          },
+          {
+            "name": "ACAA认证网络设计师",
+            "parentName": "ACAA认证",
+            "subList": null
+          },
+          {
+            "name": "ACAA认证动漫设计师",
+            "parentName": "ACAA认证",
+            "subList": null
+          },
+          {
+            "name": "ACAA认证视频编辑师",
+            "parentName": "ACAA认证",
+            "subList": null
+          },
+          {
+            "name": "ACAA认证三维动画师",
+            "parentName": "ACAA认证",
+            "subList": null
+          },
+          {
+            "name": "ACAA认证商业插画师",
+            "parentName": "ACAA认证",
+            "subList": null
+          },
+          {
+            "name": "ACAA认证原画师",
+            "parentName": "ACAA认证",
+            "subList": null
+          },
+          {
+            "name": "ACAA认证室内设计师",
+            "parentName": "ACAA认证",
+            "subList": null
+          },
+          {
+            "name": "ACAA认证商业展示设计师",
+            "parentName": "ACAA认证",
+            "subList": null
+          }
+        ]
+      },
+      {
+        "name": "雅思学术类高分者",
+        "parentName": "英语类",
+        "subList": [
+          {
+            "name": "雅思5.5分",
+            "parentName": "雅思学术类高分者",
+            "subList": null
+          },
+          {
+            "name": "雅思6.0分",
+            "parentName": "雅思学术类高分者",
+            "subList": null
+          },
+          {
+            "name": "雅思6.5分",
+            "parentName": "雅思学术类高分者",
+            "subList": null
+          },
+          {
+            "name": "雅思7.0分",
+            "parentName": "雅思学术类高分者",
+            "subList": null
+          },
+          {
+            "name": "雅思7.5分",
+            "parentName": "雅思学术类高分者",
+            "subList": null
+          },
+          {
+            "name": "雅思8.0分",
+            "parentName": "雅思学术类高分者",
+            "subList": null
+          },
+          {
+            "name": "雅思8.5分",
+            "parentName": "雅思学术类高分者",
+            "subList": null
+          },
+          {
+            "name": "雅思9.0分",
+            "parentName": "雅思学术类高分者",
+            "subList": null
+          }
+        ]
+      },
+      {
+        "name": "全国CAD技能等级证书",
+        "parentName": "IT类",
+        "subList": [
+          {
+            "name": "全国CAD技能一级证书",
+            "parentName": "全国CAD技能等级证书",
+            "subList": null
+          },
+          {
+            "name": "全国CAD技能二级证书",
+            "parentName": "全国CAD技能等级证书",
+            "subList": null
+          },
+          {
+            "name": "全国CAD技能三级证书",
+            "parentName": "全国CAD技能等级证书",
+            "subList": null
+          }
+        ]
+      },
+      { "name": "英语专业八级", "parentName": "英语类", "subList": [] },
+      { "name": "基金从业资格证", "parentName": "金融类", "subList": [] },
+      {
+        "name": "电子商务师职业资格证",
+        "parentName": "IT类",
+        "subList": [
+          {
+            "name": "电子商务员",
+            "parentName": "电子商务师职业资格证",
+            "subList": null
+          },
+          {
+            "name": "助理电子商务师",
+            "parentName": "电子商务师职业资格证",
+            "subList": null
+          },
+          {
+            "name": "电子商务师",
+            "parentName": "电子商务师职业资格证",
+            "subList": null
+          },
+          {
+            "name": "高级电子商务师",
+            "parentName": "电子商务师职业资格证",
+            "subList": null
+          }
+        ]
+      },
+      {
+        "name": "微软认证MCP",
+        "parentName": "IT类",
+        "subList": [
+          { "name": "MCE", "parentName": "微软认证MCP", "subList": null },
+          { "name": "MCSA", "parentName": "微软认证MCP", "subList": null },
+          { "name": "MCSD", "parentName": "微软认证MCP", "subList": null },
+          { "name": "MCSE", "parentName": "微软认证MCP", "subList": null },
+          { "name": "MOS", "parentName": "微软认证MCP", "subList": null },
+          { "name": "MTA", "parentName": "微软认证MCP", "subList": null }
+        ]
+      },
+      {
+        "name": "电工职业资格证",
+        "parentName": "技工类",
+        "subList": [
+          {
+            "name": "电工五级",
+            "parentName": "电工职业资格证",
+            "subList": null
+          },
+          {
+            "name": "电工四级",
+            "parentName": "电工职业资格证",
+            "subList": null
+          },
+          {
+            "name": "电工三级",
+            "parentName": "电工职业资格证",
+            "subList": null
+          },
+          {
+            "name": "电工二级",
+            "parentName": "电工职业资格证",
+            "subList": null
+          },
+          {
+            "name": "电工一级",
+            "parentName": "电工职业资格证",
+            "subList": null
+          }
+        ]
+      },
+      {
+        "name": "PETS全国英语等级考试",
+        "parentName": "英语类",
+        "subList": [
+          {
+            "name": "全国英语等级考试PETS-1",
+            "parentName": "PETS全国英语等级考试",
+            "subList": null
+          },
+          {
+            "name": "全国英语等级考试PETS-2",
+            "parentName": "PETS全国英语等级考试",
+            "subList": null
+          },
+          {
+            "name": "全国英语等级考试PETS-3",
+            "parentName": "PETS全国英语等级考试",
+            "subList": null
+          },
+          {
+            "name": "全国英语等级考试PETS-4",
+            "parentName": "PETS全国英语等级考试",
+            "subList": null
+          },
+          {
+            "name": "全国英语等级考试PETS-5",
+            "parentName": "PETS全国英语等级考试",
+            "subList": null
+          }
+        ]
+      },
+      {
+        "name": "人力资源管理师",
+        "parentName": "人力行政类",
+        "subList": [
+          {
+            "name": "人力资源管理员",
+            "parentName": "人力资源管理师",
+            "subList": null
+          },
+          {
+            "name": "人力资源管理师四级",
+            "parentName": "人力资源管理师",
+            "subList": null
+          },
+          {
+            "name": "人力资源管理师三级",
+            "parentName": "人力资源管理师",
+            "subList": null
+          },
+          {
+            "name": "人力资源管理师二级",
+            "parentName": "人力资源管理师",
+            "subList": null
+          },
+          {
+            "name": "人力资源师一级",
+            "parentName": "人力资源管理师",
+            "subList": null
+          }
+        ]
+      },
+      {
+        "name": "RHCE红帽认证",
+        "parentName": "IT类",
+        "subList": [
+          {
+            "name": "RHCSA红帽认证系统管理员",
+            "parentName": "RHCE红帽认证",
+            "subList": null
+          },
+          {
+            "name": "RHCE红帽认证工程师",
+            "parentName": "RHCE红帽认证",
+            "subList": null
+          },
+          {
+            "name": "RHCA红帽认证架构师",
+            "parentName": "RHCE红帽认证",
+            "subList": null
+          }
+        ]
+      },
+      {
+        "name": "BEC剑桥商务英语",
+        "parentName": "英语类",
+        "subList": [
+          {
+            "name": "BEC剑桥商务英语初级",
+            "parentName": "BEC剑桥商务英语",
+            "subList": null
+          },
+          {
+            "name": "BEC剑桥商务英语中级",
+            "parentName": "BEC剑桥商务英语",
+            "subList": null
+          },
+          {
+            "name": "BEC剑桥商务英语高级",
+            "parentName": "BEC剑桥商务英语",
+            "subList": null
+          }
+        ]
+      },
+      {
+        "name": "注册建造师",
+        "parentName": "房地产建筑类",
+        "subList": [
+          {
+            "name": "一级注册建造师",
+            "parentName": "注册建造师",
+            "subList": null
+          },
+          {
+            "name": "二级注册建造师",
+            "parentName": "注册建造师",
+            "subList": null
+          }
+        ]
+      },
+      { "name": "电工特种作业操作证", "parentName": "技工类", "subList": [] },
+      {
+        "name": "空调工",
+        "parentName": "技工类",
+        "subList": [
+          {
+            "name": "电工特种作业操作证",
+            "parentName": "空调工",
+            "subList": null
+          },
+          { "name": "高空作业证", "parentName": "空调工", "subList": null },
+          {
+            "name": "制冷工特种作业操作证",
+            "parentName": "空调工",
+            "subList": null
+          },
+          { "name": "压力容器操作证", "parentName": "空调工", "subList": null },
+          {
+            "name": "初级制冷工职业资格证",
+            "parentName": "空调工",
+            "subList": null
+          },
+          {
+            "name": "中级制冷工职业资格证",
+            "parentName": "空调工",
+            "subList": null
+          },
+          {
+            "name": "高级制冷工职业资格证",
+            "parentName": "空调工",
+            "subList": null
+          },
+          {
+            "name": "制冷工技师职业资格证",
+            "parentName": "空调工",
+            "subList": null
+          }
+        ]
+      },
+      { "name": "红十字会救护员证", "parentName": "体育健身类", "subList": [] },
+      {
+        "name": "心理咨询师",
+        "parentName": "心理咨询类",
+        "subList": [
+          {
+            "name": "心理咨询师一级",
+            "parentName": "心理咨询师",
+            "subList": null
+          },
+          {
+            "name": "心理咨询师二级",
+            "parentName": "心理咨询师",
+            "subList": null
+          },
+          {
+            "name": "心理咨询师三级",
+            "parentName": "心理咨询师",
+            "subList": null
+          }
+        ]
+      },
+      { "name": "ACP敏捷管理认证", "parentName": "项目管理类", "subList": [] },
+      { "name": "护士资格证", "parentName": "医疗类", "subList": [] },
+      { "name": "NPDP产品经理认证", "parentName": "项目管理类", "subList": [] },
+      { "name": "银行从业资格证", "parentName": "金融类", "subList": [] },
+      { "name": "期货从业资格证", "parentName": "金融类", "subList": [] },
+      {
+        "name": "托福网考高分者",
+        "parentName": "英语类",
+        "subList": [
+          {
+            "name": "托福80-90分",
+            "parentName": "托福网考高分者",
+            "subList": null
+          },
+          {
+            "name": "托福91-100分",
+            "parentName": "托福网考高分者",
+            "subList": null
+          },
+          {
+            "name": "托福101-110分",
+            "parentName": "托福网考高分者",
+            "subList": null
+          },
+          {
+            "name": "托福111-120分",
+            "parentName": "托福网考高分者",
+            "subList": null
+          }
+        ]
+      },
+      { "name": "特种设备作业人员证", "parentName": "技工类", "subList": [] },
+      {
+        "name": "工程师职称",
+        "parentName": "房地产建筑类",
+        "subList": [
+          { "name": "助理工程师", "parentName": "工程师职称", "subList": null },
+          { "name": "中级工程师", "parentName": "工程师职称", "subList": null },
+          { "name": "高级工程师", "parentName": "工程师职称", "subList": null },
+          { "name": "特级工程师", "parentName": "工程师职称", "subList": null }
+        ]
+      },
+      {
+        "name": "国家运动员",
+        "parentName": "体育健身类",
+        "subList": [
+          {
+            "name": "国际级运动健将",
+            "parentName": "国家运动员",
+            "subList": null
+          },
+          {
+            "name": "国家级运动健将",
+            "parentName": "国家运动员",
+            "subList": null
+          },
+          {
+            "name": "国家一级运动员",
+            "parentName": "国家运动员",
+            "subList": null
+          },
+          {
+            "name": "国家二级运动员",
+            "parentName": "国家运动员",
+            "subList": null
+          },
+          {
+            "name": "国家三级运动员",
+            "parentName": "国家运动员",
+            "subList": null
+          },
+          {
+            "name": "国家少年级运动员",
+            "parentName": "国家运动员",
+            "subList": null
+          }
+        ]
+      },
+      {
+        "name": "TOEIC托业英语考试",
+        "parentName": "英语类",
+        "subList": [
+          {
+            "name": "托业英语220分以下",
+            "parentName": "TOEIC托业英语考试",
+            "subList": null
+          },
+          {
+            "name": "托业英语220-465分",
+            "parentName": "TOEIC托业英语考试",
+            "subList": null
+          },
+          {
+            "name": "托业英语470-725分",
+            "parentName": "TOEIC托业英语考试",
+            "subList": null
+          },
+          {
+            "name": "托业英语730-855分",
+            "parentName": "TOEIC托业英语考试",
+            "subList": null
+          },
+          {
+            "name": "托业英语860分以上",
+            "parentName": "TOEIC托业英语考试",
+            "subList": null
+          }
+        ]
+      },
+      {
+        "name": "GRE",
+        "parentName": "英语类",
+        "subList": [
+          { "name": "GRE300-310分", "parentName": "GRE", "subList": null },
+          { "name": "GRE310-320分", "parentName": "GRE", "subList": null },
+          { "name": "GRE320-330分", "parentName": "GRE", "subList": null },
+          { "name": "GRE330-340分", "parentName": "GRE", "subList": null }
+        ]
+      },
+      { "name": "对外汉语教师资格证", "parentName": "教育类", "subList": [] },
+      {
+        "name": "北京舞蹈学院考级",
+        "parentName": "艺术类",
+        "subList": [
+          {
+            "name": "北舞中国舞教师资格证",
+            "parentName": "北京舞蹈学院考级",
+            "subList": null
+          },
+          {
+            "name": "北舞芭蕾舞教师资格证",
+            "parentName": "北京舞蹈学院考级",
+            "subList": null
+          },
+          {
+            "name": "北舞国标舞教师资格证",
+            "parentName": "北京舞蹈学院考级",
+            "subList": null
+          },
+          {
+            "name": "北舞中国舞13级",
+            "parentName": "北京舞蹈学院考级",
+            "subList": null
+          },
+          {
+            "name": "北舞芭蕾舞8级",
+            "parentName": "北京舞蹈学院考级",
+            "subList": null
+          },
+          {
+            "name": "北舞国标舞10级",
+            "parentName": "北京舞蹈学院考级",
+            "subList": null
+          }
+        ]
+      },
+      { "name": "TEFL英语教师资格证书", "parentName": "教育类", "subList": [] },
+      {
+        "name": "IPMP国际项目经理资质认证",
+        "parentName": "项目管理类",
+        "subList": [
+          {
+            "name": "IPMP国际项目经理A级认证",
+            "parentName": "IPMP国际项目经理资质认证",
+            "subList": null
+          },
+          {
+            "name": "IPMP国际项目经理B级认证",
+            "parentName": "IPMP国际项目经理资质认证",
+            "subList": null
+          },
+          {
+            "name": "IPMP国际项目经理C级认证",
+            "parentName": "IPMP国际项目经理资质认证",
+            "subList": null
+          },
+          {
+            "name": "IPMP国际项目经理D级认证",
+            "parentName": "IPMP国际项目经理资质认证",
+            "subList": null
+          }
+        ]
+      },
+      { "name": "大学日语四级", "parentName": "外语类", "subList": [] },
+      { "name": "电工进网作业许可证", "parentName": "技工类", "subList": [] },
+      {
+        "name": "国家裁判员",
+        "parentName": "体育健身类",
+        "subList": [
+          {
+            "name": "国家级裁判员",
+            "parentName": "国家裁判员",
+            "subList": null
+          },
+          {
+            "name": "国家一级裁判员",
+            "parentName": "国家裁判员",
+            "subList": null
+          },
+          {
+            "name": "国家二级裁判员",
+            "parentName": "国家裁判员",
+            "subList": null
+          },
+          {
+            "name": "国家三级裁判员",
+            "parentName": "国家裁判员",
+            "subList": null
+          }
+        ]
+      },
+      {
+        "name": "CSM敏捷项目管理专家",
+        "parentName": "项目管理类",
+        "subList": []
+      }
+    ]
+  }
+}

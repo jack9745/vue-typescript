@@ -1,7 +1,13 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div class="header-wrapper">
-    <header class="header"></header>
+    <header class="header">
+      <!-- 当前登录用户 -->
+      <div class="account">
+        <span>{{ userStore.userInfo?.account }}</span>
+        <el-button type="text" @click="loginOut">退出</el-button>
+      </div>
+    </header>
   </div>
   <div class="main">
     <!-- 左边菜单栏是固定的 -->
@@ -47,10 +53,14 @@
 <script lang="ts">
 import { reactive, ref, defineComponent } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
+import { useUserStore } from '@/stores/user'
 export default defineComponent({
   setup() {
     const router = useRouter()
     const route = useRoute()
+    const userStore = useUserStore()
+    console.log('userStore', userStore)
+    userStore.getUserInfo()
     // 为什么渲染不出来呢？？是home组件的子路由，没有在home.vue写出口
     // 1 加载子路由对应的组件时，不会 重新加载上一级路由对应的组件 ，就是父路由
     // 如果路由中路径或者路由的名字相同，会先加载根级的路由
@@ -70,6 +80,10 @@ export default defineComponent({
         name: '家庭成员管理',
         path: '/member',
       },
+      {
+        name: '证书管理',
+        path: '/qualification',
+      },
     ])
     // 匹配路由 激活菜单
     const matchRoute = () => {
@@ -83,10 +97,28 @@ export default defineComponent({
       }
     }
     matchRoute()
+
+    /**
+     * @remarks 退出登录
+     */
+    const loginOut = async () => {
+      try {
+        const response = await fetch('/api/user/loginOut')
+        const result = await response.json()
+        console.log(result)
+        if (result.code === 0) {
+          router.push({
+            path: '/login',
+          })
+        }
+      } catch (error) {}
+    }
     return {
       handlerRouter,
       routeList,
       activeIndex,
+      userStore,
+      loginOut,
     }
   },
   mounted() {
@@ -119,6 +151,14 @@ export default defineComponent({
   width: 100%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   background-color: white;
+  .header {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: flex-end;
+    .account {
+    }
+  }
 }
 
 .main {

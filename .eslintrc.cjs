@@ -52,6 +52,7 @@ module.exports = {
     // so it gets the chance to override other configs.
   ],
   rules: {
+    'no-empty': 'off',
     // 'no-var': 'off', // 生效的
     // 对于声明了变量，但是么有使用过的，要发出警号
     '@typescript-eslint/no-unused-vars': ['warn'],

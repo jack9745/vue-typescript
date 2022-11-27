@@ -14,9 +14,10 @@
     "@element-plus/icons-vue": "^2.0.9",
     "@types/jquery": "^3.5.14",
     "element-plus": "^2.2.10",
+    "js-cookie": "^3.0.1",
     "lodash": "^4.17.21",
     "mitt": "^3.0.0",
-    "pinia": "^2.0.16",
+    "pinia": "^2.0.26",
     "vue": "^3.2.37",
     "vue-router": "^4.1.2"
   },
@@ -24,6 +25,7 @@
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
     "@rushstack/eslint-patch": "^1.1.0",
+    "@types/js-cookie": "^3.0.2",
     "@types/jsdom": "^16.2.14",
     "@types/node": "^16.11.45",
     "@vitejs/plugin-vue": "^3.0.1",
@@ -48,7 +50,6 @@
     "vite": "^3.0.1",
     "vite-plugin-eslint": "^1.8.0",
     "vitest": "^0.18.1",
-    "vue": "^3.2.37",
     "vue-tsc": "^0.38.8",
     "yorkie": "^2.0.0"
   },

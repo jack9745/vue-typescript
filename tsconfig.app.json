@@ -1,6 +1,7 @@
 {
   "extends": "@vue/tsconfig/tsconfig.web.json",
-  "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
+  // 要包含json文件
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue", "src/**/*.json"],
   "exclude": ["src/**/__tests__/*"],
   "compilerOptions": {
     "composite": true,
