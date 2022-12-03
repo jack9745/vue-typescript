@@ -1,8 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 // import HomeView from '../views/HomeView.vue'
-import { getCookie } from '@/utils/index'
 
-import { useUserStore } from '@/stores/user'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -38,8 +36,6 @@ const router = createRouter({
       name: 'login',
       component: () => import('@/views/login/SignIn.vue'),
       beforeEnter: (to, from) => {
-        console.log(to, from)
-
         if (sessionStorage.getItem('loginFlag') === 'true') {
           return from
         }

@@ -146,6 +146,9 @@ const register = async () => {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background-image: url('../../assets/pic/4.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
   .dialog {
     width: 500px;
     height: 300px;
