@@ -1,15 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 // import HomeView from '../views/HomeView.vue'
+import { getCookie } from '@/utils/index'
 
-type Person = {
-  name: string
-  age: number
-}
-const person: Person = {
-  name: 'jack',
-  age: 19,
-}
-
+import { useUserStore } from '@/stores/user'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -44,6 +37,13 @@ const router = createRouter({
       path: '/login',
       name: 'login',
       component: () => import('@/views/login/SignIn.vue'),
+      beforeEnter: (to, from) => {
+        console.log(to, from)
+
+        if (sessionStorage.getItem('loginFlag') === 'true') {
+          return from
+        }
+      },
     },
 
     {

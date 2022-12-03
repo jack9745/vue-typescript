@@ -46,34 +46,51 @@
 
 <script lang="ts" setup>
 import { ref, reactive, toRaw } from 'vue'
-import { useRouter, useRoute } from 'vue-router'
+
+import { useRouter, useRoute, onBeforeRouteLeave } from 'vue-router'
+
 import type { FormInstance, FormRules } from 'element-plus'
+
 import { ElMessage } from 'element-plus'
+
 import { getCookie } from '@/utils'
-const showDialog = ref(true)
+
+import { useUserStore } from '@/stores/user'
+
+const userStore = useUserStore()
+const router = useRouter()
+const route = useRoute()
+
 const formData = reactive({
   account: '',
   password: '',
 })
-const router = useRouter()
-const route = useRoute()
 
-// @remarks form Ref
+/**
+ * @remarks form Ref
+ * */
 const formRef = ref<FormInstance>()
 
-// @remarks form rules
+/**
+ * @remarks form rules
+ * */
 const rules = reactive<FormRules>({
   password: [{ required: true, message: '请输入密码' }],
   account: [{ required: true, message: '请输入账号' }],
 })
 
-// @remarks  validate forms
+/**
+ *  @remarks  validate forms
+ *
+ */
 const validate = async () => {
   const result = await formRef.value?.validate().catch(() => false)
   return result
 }
 
-// remarks register event
+/**
+ * @remarks register event
+ * */
 const register = () => {
   router.push({
     path: '/register',
@@ -112,10 +129,18 @@ const login = async () => {
         type: 'success',
         message: '登录成功',
       })
+      userStore.setLogin(true)
+      console.log('现在的登录态是', userStore.loginFlag)
       setTimeout(() => {
-        router.push({
-          path: '/todo',
-        })
+        // 如果有重定向地址 则重定向到 这个地址
+        // 如果没有则到根地址
+        if (route.query.redirectURI) {
+          location.href = decodeURIComponent(route.query.redirectURI as string)
+        } else {
+          router.push({
+            path: '/todo',
+          })
+        }
       }, 1000)
     } else {
       ElMessage({

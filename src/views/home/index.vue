@@ -54,6 +54,7 @@
 import { reactive, ref, defineComponent } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useUserStore } from '@/stores/user'
+import { loginOut as localLoginOut } from '@/api/login'
 export default defineComponent({
   setup() {
     const router = useRouter()
@@ -103,12 +104,18 @@ export default defineComponent({
      */
     const loginOut = async () => {
       try {
-        const response = await fetch('/api/user/loginOut')
-        const result = await response.json()
+        const result = await localLoginOut()
+
+        // 注意如果 api/login 中要显示的注解返回结果的类型 AxiosResponse
         console.log(result)
         if (result.code === 0) {
+          // 退出登录
+          userStore.setLogin(false)
           router.push({
             path: '/login',
+            query: {
+              redirectURI: encodeURIComponent(location.href),
+            },
           })
         }
       } catch (error) {}
