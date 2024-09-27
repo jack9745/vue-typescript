@@ -18,7 +18,11 @@ const router = createRouter({
           name: 'todo',
           component: () => import('@/views/todo/index.vue'),
         },
-
+        {
+          path: 'test',
+          name: 'test',
+          component: () => import('@/views/todo/test.vue'),
+        },
         {
           path: 'member',
           name: 'member',
@@ -30,6 +34,12 @@ const router = createRouter({
           component: () => import('@/views/qualification/index.vue'),
         },
       ],
+    },
+
+    {
+      path: '/404',
+      name: '404',
+      component: () => import('@/components/404.vue'),
     },
     {
       path: '/login',

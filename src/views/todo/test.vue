@@ -3,5 +3,7 @@
   <div>我是代办中测试的内容</div>
 </template>
 
-<script lang="ts"></script>
+<script lang="ts" setup>
+import '@/utils/watcher'
+</script>
 <style lang="less" scoped></style>
